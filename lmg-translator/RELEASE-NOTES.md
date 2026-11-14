@@ -2,6 +2,24 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.12 – 14 Nov 2026
+
+### New
+- **The place names sit on the map as links** (G, 14 Nov: "add the links into the map – keep visitors 2 or more pages"). Next to each pin is a small label with the place's name; where we have an article it is a link ("Fontana di Trevi ↗") that opens it. These are real links in the page – Google counts them as internal links – and they show æ, ø and å correctly.
+- **Green pin = an article of ours behind it, grey pin = not yet.** Readers see at a glance what they can click; editors see which places are deep-dive candidates.
+- **Labels never cover each other or the pins:** each tries the right of its pin, then the left, then a little higher or lower; a label that finds no room is left out (the pin and the list still link).
+- **Closer zoom when the places are close together**, down to street level (central Rome), instead of stopping at city level.
+- On phones (narrower than 640 px) the labels are hidden so the map stays readable; the pins and the list still link.
+
+### What you do differently
+- Maps already in a text get labels and colours when you press **Propose the map again** → Accept. Works the same on all four sites.
+
+### Good to know
+- Tested in a browser at desktop and phone width with four places in central Rome: three linked labels and one plain, no overlaps; labels hidden on the phone. The map picture used stand-in tiles. **Not tested on the live sites.**
+
+### Older translations
+- **Applies to maps proposed from installation on.**
+
 ## 2.17.11 – 14 Nov 2026
 
 ### New

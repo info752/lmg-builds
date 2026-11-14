@@ -3,11 +3,11 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.11",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.11.zip",
-   "sha256": "c433e6c44c0186d3ca40f25aa58f220b2397239b359be165ce1434fd7564a264",
+   "version": "2.17.12",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.12.zip",
+   "sha256": "d819fc5bbae1fed31ec150c316c86bf89c0fe32bfc806812b69060870cb92a81",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "The map finds our articles under every name of a place and prefers the article about it; deep-dive ideas marked.",
+   "summary": "Place names on the map as links; green pins have an article; closer zoom.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
