@@ -24,16 +24,17 @@
    "summary": "The family block is always last under an article.",
    "sites": [
     "traveltalk.travel",
-    "winetalk.dk"
+    "winetalk.dk",
+    "worldsporttalk.com"
    ]
   },
   "lmg-updater/lmg-updater.php": {
    "name": "LMG Updater",
-   "version": "1.0.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.0.0.zip",
-   "sha256": "4213fdc957adab037d569b979b1709da84acc255aa0658edd171b0e106d3619d",
+   "version": "1.0.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.0.1.zip",
+   "sha256": "2ca125a9ad9bebcd4f250cb36a1f8b94c503369c832787e95b95078acd0dbd9b",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-updater/RELEASE-NOTES.md",
-   "summary": "Updates for our own plugins from one list.",
+   "summary": "The status address is never cached.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

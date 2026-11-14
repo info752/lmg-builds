@@ -2,6 +2,20 @@
 
 For G and the editors. Newest first.
 
+## 1.0.1 – 14 Nov 2026
+
+### New
+- The status address each site gives (which versions it runs) is never cached any more. On traveltalk.dk the page cache kept an old, empty answer, so the status read from outside showed nothing.
+
+### What you do differently
+- Nothing new: Dashboard → Updates → LMG Updater → Update, on each site.
+
+### Good to know
+- Tested: the code loads without errors. **Not tested on the live sites.**
+
+### Older content
+- **Not affected.**
+
 ## 1.0.0 – 14 Nov 2026
 
 ### New
