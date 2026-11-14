@@ -3,11 +3,11 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.12",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.12.zip",
-   "sha256": "d819fc5bbae1fed31ec150c316c86bf89c0fe32bfc806812b69060870cb92a81",
+   "version": "2.17.13",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.13.zip",
+   "sha256": "398f815df8022579cf24d47f9b2b0d085b7c680578235fb879edf35f9c1bf29a",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Place names on the map as links; green pins have an article; closer zoom.",
+   "summary": "Links to other sites from your approved list, tick each link, extra keyword suggestions.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

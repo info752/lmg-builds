@@ -2,6 +2,26 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.13 – 14 Nov 2026
+
+### New
+- **Links to other sites, from your approved list.** Translator → Settings → "Approved external sites": one address per line (for example formula1.com). Each site starts with a list for its subject (sport, wine or travel); change it as you like. **Propose links** now suggests up to 3 links out to official sources, from your list first. Another site can be suggested when it is the official source; it is marked "not on your list – your call".
+- **You tick the links you want.** Every proposed link has a tick box. Untick what you don't want; only the ticked links go into the text.
+- **Extra keywords.** Under step 3 SEO, **Suggest extra keywords** finds up to five words people search for that your text already mentions (places, people, events). Add the ones you want after your main keyword in Rank Math → Focus Keyword. Translator never writes them in.
+- **Links counts links out.** Step 4 Links now also shows how many links go to other sites ("3 external").
+
+### What you do differently
+- Once per site: look at Translator → Settings → Approved external sites, and add or remove addresses. The number of links out per proposal (3) is set under the list.
+- In a post: Propose links → untick what you don't want → Accept.
+
+### Good to know
+- The links open in a new window and count fully for Google (no "nofollow").
+- Every suggested page is checked to answer before it is shown; a suggested address can still be a general page rather than the exact one. Open it before you accept.
+- Tested on a test WordPress with a stand-in for Claude: the list, the ticks (only ticked links went in), the cap of 3, and keyword suggestions that are not in the text left out. Not yet tested with the real Claude on the live sites.
+
+### Older content
+- Not affected. Existing links stay as they are. A proposal made before the update and still waiting gets tick boxes too, but its links out all show as "not on your list"; press Reject and Propose links again to see the right mark.
+
 ## 2.17.12 – 14 Nov 2026
 
 ### New
