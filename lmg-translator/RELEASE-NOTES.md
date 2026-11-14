@@ -2,6 +2,22 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.7 – 14 Nov 2026
+
+### New
+- **The map (and the fact box) land after the intro, also when the text opens with a heading.** On the Roman wine bar article (traveltalk.dk) the map went to the very top, above the first heading: Translator looked for "the first heading" and the text began with one. It now finds the end of the real intro – the first heading with at least 25 words of text above it, or else the first paragraph that ends past 25 words – and puts the map there. A fact box at the same spot follows right after the map.
+- **The SEO keyword is no longer lost when you press a Translator button.** In the classic editor, a focus keyword typed in Rank Math and not yet saved was thrown away when you pressed a Translator button: Translator only watched the title, the text and the categories. It now notices any unsaved change in the edit screen (Rank Math's keyword, SEO title, description …), saves the post for you first ("Saving your edits first …"), and then runs the step by itself.
+
+### What you do differently
+- To move a map that sits at the top: Steps → Boxes → **Propose the map again** → Accept.
+- Nothing else: type the keyword, press the Translator button – the save happens first.
+
+### Good to know
+- Tested: the code loads without errors; the new intro point was tried on four kinds of text (classic text opening with a heading, classic without headings, block text opening with a heading, intro then heading) and found the end of the intro in each. The save-first step in the classic editor was not tried in a browser. **Not tested on the live sites.**
+
+### Older translations
+- **Applies automatically** to every map and fact box accepted from installation on; maps already in a text move when proposed again.
+
 ## 2.17.6 – 14 Nov 2026
 
 ### New

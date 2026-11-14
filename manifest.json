@@ -3,11 +3,11 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.6",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.6.zip",
-   "sha256": "fefeeb573c5a1810a2a1d61043f612a452a5634ddf37fac555e0e61936105e36",
+   "version": "2.17.7",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.7.zip",
+   "sha256": "3cfa540cc13e4df159486b78e5ad004f0c4745eee55e0513a7d0e6e10c9d65db",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "SEO fields survive boxes and maps; map after the intro; Google maps replaced; questions box repaired; flags: choose which to fix, publish as it is.",
+   "summary": "Map and fact box after the real intro; unsaved SEO keyword saved before a Translator step.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
