@@ -3,11 +3,11 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.9",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.9.zip",
-   "sha256": "938695a19e689d80fbd366a99ac0d38f673d4d8d162c084a683246c0e6cc44aa",
+   "version": "2.17.10",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.10.zip",
+   "sha256": "6b5e0a3ede9e89aa241d2ff6a92746a82b1bbf5e94a3a6d518ad3a5e51440b2f",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "What a person has set (keyword, SEO title, meta description) is never changed; Translator only advises. Includes 2.17.8.",
+   "summary": "Content gaps stay in the article's language; an old map at the top is replaced even without markers.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

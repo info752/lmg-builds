@@ -2,6 +2,21 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.10 – 14 Nov 2026
+
+### New
+- **"What readers will miss" stays in the article's own language.** On the Danish Antica Enoteca article the suggestions suddenly appeared in Finnish. The cause: when a translation was made, the translation's own content suggestions – in Finnish – were saved on the Danish original and replaced its list. They no longer are; the list on an original comes only from its own check ("Find content gaps").
+- **An old map at the top is replaced, also when the classic editor dropped its markers.** On Antica Enoteca the old map stayed at the top after a new one was proposed: the classic editor's Visual view had removed the invisible markers Translator uses to find its box. Accept now also finds an old map box by its own markup and removes it before putting in the new one.
+
+### What you do differently
+- On Antica Enoteca: Steps → **Find content gaps** once more to get the list back in Danish; Boxes → **Propose the map** → **Accept** (the old map at the top goes by itself).
+
+### Good to know
+- Tested: the code loads without errors; an old map box without markers was removed from sample text and the text around it stayed. **Not tested on the live sites.**
+
+### Older translations
+- **Applies automatically** from installation on. A list already overwritten in another language is replaced the next time Find content gaps runs.
+
 ## 2.17.9 – 14 Nov 2026
 
 ### New
