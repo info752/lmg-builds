@@ -42,6 +42,20 @@
     "winetalk.dk",
     "worldsporttalk.com"
    ]
+  },
+  "lmg-concierge/lmg-concierge.php": {
+   "name": "LMG Concierge (Aianna)",
+   "version": "0.9.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-concierge/lmg-concierge-0.9.2.zip",
+   "sha256": "fd427d84527ebad3f1112a53c1cfc84834fcf33119c7d61a49a66ad471496b45",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-concierge/RELEASE-NOTES.md",
+   "summary": "The Aianna box in the text moves to the end of the article, above the Family block.",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com"
+   ]
   }
  }
 }
