@@ -2,6 +2,26 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.9 – 14 Nov 2026
+
+### New
+- **What a person has set, Translator never changes – it only advises** (G, 14 Nov). Until now Translator could change SEO fields you had set yourself:
+  - the SEO step added its own keyword to your list and replaced your meta description;
+  - Catch-up put its keyword first, ahead of yours;
+  - a new translation put into a text replaced your SEO title and meta description.
+- Now, everywhere: a focus keyword, an SEO title or a meta description that is already there stays exactly as it is. Translator fills a field only when it is empty. Where it has a different suggestion, the green notice shows it ("Your focus keyword is kept: "…". Suggestion (not added): "…""), and you decide whether to use it.
+- Together with 2.17.6 and 2.17.8 (fields put back when another plugin changes them during a Translator step), a keyword or category you set should now stay set.
+
+### What you do differently
+- Nothing. If a suggestion is better than yours, copy it into Rank Math yourself.
+
+### Good to know
+- Tested: the code loads without errors; every place in Translator that writes a focus keyword, SEO title or meta description was checked and now fills empty fields only. **Not tested on the live sites.**
+- Keywords and descriptions lost before this version are not restored; set them once more.
+
+### Older translations
+- **Applies automatically** from installation on.
+
 ## 2.17.8 – 14 Nov 2026
 
 ### New

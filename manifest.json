@@ -3,11 +3,11 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.8",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.8.zip",
-   "sha256": "97dcd3d98834ada3c5c8b5aa490f0067d9988044618ace0817d0a9edb89dd46e",
+   "version": "2.17.9",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.9.zip",
+   "sha256": "938695a19e689d80fbd366a99ac0d38f673d4d8d162c084a683246c0e6cc44aa",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Map focused on the article's place with links to our articles; categories and SEO fields guarded later too.",
+   "summary": "What a person has set (keyword, SEO title, meta description) is never changed; Translator only advises. Includes 2.17.8.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
