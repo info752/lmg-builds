@@ -31,11 +31,11 @@
   },
   "lmg-updater/lmg-updater.php": {
    "name": "LMG Updater",
-   "version": "1.0.1",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.0.1.zip",
-   "sha256": "2ca125a9ad9bebcd4f250cb36a1f8b94c503369c832787e95b95078acd0dbd9b",
+   "version": "1.1.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.1.0.zip",
+   "sha256": "7c41116ef19eb65a00a363328487476be1e188e56f1a141e7a7a514a9c4019d1",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-updater/RELEASE-NOTES.md",
-   "summary": "The status address is never cached.",
+   "summary": "A notice with Update all now on every admin page; new lists noticed within 10 minutes.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

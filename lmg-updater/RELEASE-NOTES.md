@@ -2,6 +2,22 @@
 
 For G and the editors. Newest first.
 
+## 1.1.0 – 14 Nov 2026
+
+### New
+- **A notice at the top of every wp-admin page** when an update is waiting on that site: "LMG: 2 update(s) waiting – LMG Translator 2.17.6 → 2.17.7 · LMG Leisure Family 1.1 → 1.3" with one button, **Update all now**. No searching under Dashboard → Updates (G, 14 Nov: "I still need to know here").
+- **The site notices a new list within 10 minutes** and tells WordPress at once, so the update shows straight away instead of after up to half a day. This is why LMG Leisure Family 1.3 did not show on worldsporttalk.com: the site still had the list from before WST was added.
+- **"Read the list again"** also reads every site's status afresh, so old "no answer" lines disappear.
+
+### What you do differently
+- When Claude says something is in the list: open wp-admin on each site, press **Update all now** in the yellow notice. That is all.
+
+### Good to know
+- Tested on a test WordPress 6.5 in a real browser: the notice showed "LMG: 1 update(s) waiting", Update all now updated the plugin and it stayed active. **Not tested on the live sites.**
+
+### Older content
+- **Not affected.**
+
 ## 1.0.1 – 14 Nov 2026
 
 ### New
