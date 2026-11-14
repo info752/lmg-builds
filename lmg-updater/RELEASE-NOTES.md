@@ -2,6 +2,20 @@
 
 For G and the editors. Newest first.
 
+## 1.1.2 – 14 Nov 2026
+
+### New
+- **Tools → LMG Updates links to every site.** Each site's name at the top of the table opens that site's Dashboard → Updates in a new tab, and every "⏳ update waiting" does the same. Includes 1.1.1.
+
+### What you do differently
+- From the table on any one site, click the site name to go and update it.
+
+### Good to know
+- Tested: the code loads without errors. **Not tested on the live sites.**
+
+### Older content
+- **Not affected.**
+
 ## 1.1.1 – 14 Nov 2026
 
 ### New
