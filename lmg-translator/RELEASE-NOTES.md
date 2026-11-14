@@ -2,6 +2,24 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.8 – 14 Nov 2026
+
+### New
+- **The map shows the article's own place, and its places link to our articles** (G, 14 Nov, the Roman wine bar: "throws the references all over mid Italy … what is the use of a Barolo dot without a link"). Propose the map now first decides the article's focus – the city, area or region it is about – and picks only places inside it; a wine region named for its wine, or a city mentioned in passing, is left out. Only a text about a whole country or a route spreads wider.
+- **Each place links to an article where we have one**: first on the site itself, then on the sister sites in the same language (traveltalk.dk and winetalk.dk for Danish; traveltalk.travel and worldsporttalk.com for English). The place name in the numbered list under the map is a link with "Læs mere →" / "Read more →", and the pin goes straight to the article. Places without an article of ours stay without a link. In the panel, before you accept, each place says which article it will link to, and the focus is named.
+- **No second credit line under the map.** The credit the map licence asks for stays in the picture's corner; the line under the box is gone.
+- **Categories and SEO fields are guarded later too.** On the Roman wine bar the categories dropped out after a Translator step although 2.14 puts them back right after the save: the other plugin changes them later in the same request. Translator now checks again at the very end of the request, and once more when the post is next opened in the editor within 30 minutes (with a notice saying what it put back). A save you make yourself in the editor always wins: after you press Update, nothing is put back.
+
+### What you do differently
+- On the Roman wine bar: check the categories, then Steps → Boxes → **Propose the map again** → read the places and their links → Accept.
+
+### Good to know
+- Tested: the code loads without errors; on a test WordPress a stand-in plugin removed the category and the focus keyword during and at the end of a Translator save, and both were back afterwards; the article lookup was tried on the live sister sites (Barolo and Montefalco found their winetalk.dk articles; "Rom" no longer matches "from"); the map box with links was drawn. Not tried: the new focus rule in a live proposal. **Not tested on the live sites.**
+- The plugin that drops the categories is still unknown; the guard works whatever it is.
+
+### Older translations
+- **Applies automatically** to every Translator save from installation on. Maps already in a text get links and focus when proposed again.
+
 ## 2.17.7 – 14 Nov 2026
 
 ### New
