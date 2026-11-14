@@ -2,6 +2,22 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.11 – 14 Nov 2026
+
+### New
+- **The map finds our articles under every name a place goes by.** On Antica Enoteca, "Trevi-fontænen" had no link although traveltalk.dk has "Fontana di Trevi, Trevi Fontænen. Et springvand i Rom." – the names were written differently. Propose the map now asks for each place's other names (the local original, English, the article's language) and its most distinctive word ("Trevi"), searches for all of them, and treats hyphens and spaces alike.
+- **The article ABOUT a place wins over one that only mentions it.** For "Rom" the map now picks "Rejsen til Rom, den evige stad", not the Trevi article that ends "… i Rom": the title that names the place earliest is chosen.
+- **Places without an article of ours are marked as an idea for a deep-dive post** in the panel – one place, its real history, why it is worth the trip, like Antica Enoteca.
+
+### What you do differently
+- On Antica Enoteca: Boxes → **Propose the map** → check that Trevi and Rom now say "→ links to …" → Accept.
+
+### Good to know
+- Tested: the code loads without errors; the name matching was tried on real traveltalk.dk titles (Trevi → the Trevi article; Rom → "Rejsen til Rom"; "Rom" does not match "Roms" or "from"). Not tried in a live proposal. **Not tested on the live sites.**
+
+### Older translations
+- **Applies to maps proposed from installation on.**
+
 ## 2.17.10 – 14 Nov 2026
 
 ### New
