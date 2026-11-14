@@ -2,6 +2,20 @@
 
 For G and the editors. Newest first.
 
+## 1.1.1 – 14 Nov 2026
+
+### New
+- **New versions show at once.** GitHub's public file address kept serving the old list for more than 20 minutes after a new version was put in, so "Update all now" installed the previous version (2.17.8 instead of 2.17.9). The Updater now reads the list through GitHub's own interface, which answers within a minute; if that is busy it falls back to the old address.
+
+### What you do differently
+- Nothing.
+
+### Good to know
+- Tested: the new address returned the current list (2.17.9) while the old one still returned 2.17.8. The code loads without errors. **Not tested on the live sites.**
+
+### Older content
+- **Not affected.**
+
 ## 1.1.0 – 14 Nov 2026
 
 ### New
