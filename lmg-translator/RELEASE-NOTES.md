@@ -2,6 +2,23 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.14 – 15 Nov 2026
+
+### New
+- **No more automatic language switching.** Until now, a reader who once chose a language in the language button was sent to that language on later pages without asking. A German reader who had once clicked English was moved off a German article they had found on Google. Google advises against this. The plugin no longer moves anyone.
+- **A small note instead.** When the page exists in the reader's chosen language, a note in the bottom-left corner offers it, in that language: "Read this page in English →". One click takes the reader there; × closes it for the rest of the visit.
+
+### What you do differently
+- Nothing. Install on traveltalk.travel first, then traveltalk.dk, and purge LiteSpeed Cache on each.
+
+### Good to know
+- The reader's choice is still remembered in their own browser. The "not yet translated" line still shows where a page has no version in that language.
+- The note never sits on top of another corner note (welcome, "Back to traveltalk.dk", "Read this page in English ↗" on traveltalk.dk), and it never points to the other site.
+- Tested in a browser with the plugin's own page code on a stand-in page: with English remembered, a German page stays German and shows the note linking to the English version; closed, it stays away on reload; with German or Danish remembered, no note. **Not tested on the live sites.**
+
+### Older content
+- Applies automatically to every page from installation on. Nothing to catch up.
+
 ## 2.17.13 – 14 Nov 2026
 
 ### New
