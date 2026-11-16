@@ -2,6 +2,28 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.15 – 16 Nov 2026
+
+### New
+- **Your text can no longer be wiped by an empty editor.** Sometimes the edit screen opens with an empty text area although the text is saved (the preview shows it). Until now, saving from that screen – or clicking a Translator step, which saves first – stored the empty text. Now a save that would empty a page, post or translation keeps the text that was saved, and a yellow note says so.
+- **Publish button where you look.** When "Translation: what to do now" says "No flags. Nothing to fix.", a blue **Publish** button sits right under it. It publishes the text as it is saved, without going through the editor. You no longer need to find the Publish box.
+- **Clearer message after "Fix the flags".** The green bar now says the corrections are *ready, not yet in your text*, and to press Accept or Reject in the Check step. It no longer says "Done" while something is still waiting for you.
+- **Tidier lists.** Translator's columns (Words, Translations, ID, Pictures, Structure, Views 30d) no longer appear on lists Translator does not work with, such as Travel deals. The column headings there get their room back.
+
+### What you do differently
+- Install on traveltalk.travel and traveltalk.dk (order does not matter), then LiteSpeed Cache → Purge All on each.
+- To publish a checked translation: click **Publish** in "Translation: what to do now".
+- If you see the yellow note "Your text was kept", reload the page. Do not paste the text in again.
+
+### Good to know
+- The Publish button only shows when there are no flags (or "I have read the check" is ticked) and the saved text is not empty. Nothing is published by itself; you still click.
+- If you ever really want to empty a page, move it to Trash instead.
+- Why the editor sometimes opens empty is not found yet; this release makes sure it does no harm.
+- Tested: the code loads without errors; the text guard and the column filter with sample data (empty and "&nbsp;" editors keep the saved text; real new text is saved; Travel deals lose Translator's columns, posts keep them). **Not tested on the live sites.** Try the Publish button on one golf draft first.
+
+### Older translations
+- Applies automatically from installation on, to every translation, page and post. Nothing to catch up.
+
 ## 2.17.14 – 15 Nov 2026
 
 ### New
