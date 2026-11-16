@@ -2,6 +2,32 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.16 – 16 Nov 2026
+
+### New
+- **A fixed order before publishing.** The Publish button in "Translation: what to do now" only appears when steps 1 Check, 3 Structure, 4 SEO and 5 Links are settled and nothing in the steps says "waiting for you". Until then the box says which step is still open, for example "Finish step 3 Structure, step 5 Links first".
+- **Step 7 Publish says the same.** "Not yet: finish … first", or, when everything is settled, "Ready: look at the preview, then press Publish in 'Translation: what to do now'".
+- **Publish anyway, when you must.** Under "Not ready to publish" there is a small "Publish anyway" link. It asks you to confirm, and the translation remembers which steps were still open.
+
+### What you do differently
+Follow the steps in order for every translation:
+1. Check: "No flags" (fix or Accept first).
+2. Deepen: only if under 800 words – better on the Danish original.
+3. Structure: Accept or Reject.
+4. SEO: keyword and meta present.
+5. Links: Accept the ticked ones, or Reject.
+6. Look at the preview: pictures, headings, layout.
+7. Publish with the button in "Translation: what to do now".
+
+### Good to know
+- Deepen (thin text) never blocks publishing; it is advice.
+- If a step cannot be settled – for example Links when no suitable link was found, or Structure after you rejected the proposal – use "Publish anyway".
+- The ordinary WordPress Publish box still works and does not check the steps. Use the button in "Translation: what to do now".
+- Tested: the code loads without errors; which steps block, with sample step lists (Ireland: Structure and Links open; a page that is only thin: ready). **Not tested on the live sites.**
+
+### Older translations
+- Applies automatically from installation on, to every draft. Already published translations are not affected.
+
 ## 2.17.15 – 16 Nov 2026
 
 ### New

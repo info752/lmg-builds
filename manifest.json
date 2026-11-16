@@ -3,11 +3,11 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.15",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.15.zip",
-   "sha256": "4b0c6e17569226799b6b008434d1d7a1f62562ec3ede9c4fbdfa6e8a7112d5ad",
+   "version": "2.17.16",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.16.zip",
+   "sha256": "f1268c6ea37fb8e1f7b617a7c0e51ffd91f99eeddcdf889c7af674da5842bd87",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "An empty editor can no longer wipe your text; Publish button under \"No flags\"; clearer message after Fix.",
+   "summary": "Stricter publishing: the Publish button waits until Check, Structure, SEO and Links are settled.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
