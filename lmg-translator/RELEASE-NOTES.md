@@ -2,6 +2,21 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.17 – 16 Nov 2026
+
+### New
+- **The featured image you choose on a translation stays.** Until now, a picture set in the Featured image box could jump back to the old one the next time the edit screen opened, if Translator had saved the text in the last half hour (its safety net for SEO fields also covered the picture). Choosing a picture yourself now switches that safety net off for that translation.
+- **Deepen never blocks publishing.** In 2.17.16 a thin text with suggestions waiting ("Go to the suggestions") kept the Publish button away. Deepen is advice; now it never blocks, whether it says "to do" or "waiting".
+
+### What you do differently
+- Nothing. Update from Dashboard → Updates (or the zip) and purge LiteSpeed.
+
+### Good to know
+- Tested: the code loads without errors; which steps block, with sample step lists (South Africa: Deepen waiting no longer blocks; Structure "to do" still does). The picture fix is not tested on the live sites: set a featured image on one translation, reload the edit screen, and check that it stays.
+
+### Older translations
+- Applies automatically from installation on.
+
 ## 2.17.16 – 16 Nov 2026
 
 ### New
