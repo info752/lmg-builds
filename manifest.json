@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-16",
+ "updated": "2026-11-18",
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.17",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.17.zip",
-   "sha256": "c49e1cbc562b3d2de359a50af393bd1f44d07d88d89156043150b9034ff661fb",
+   "version": "2.17.18",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.18.zip",
+   "sha256": "af8125c72915a5dec2872895bfb203ea335f7fced459811f94ac97e8fcbfefa1",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "A featured image you choose on a translation stays; thin text never blocks publishing.",
+   "summary": "English only on traveltalk.travel; Ja/Nej/Senere on .dk posts; approve headline and intro, publish despite flags.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

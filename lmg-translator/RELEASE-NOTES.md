@@ -2,6 +2,32 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.18 – 18 Nov 2026
+
+### New
+- **traveltalk.travel is English only (Travel 360).** A new setting, "English only" (Translator → Settings → New articles), is on from installation. Automatic translations go to English only; traveltalk.travel starts no new translations into other languages; its language button shows English and Danish (and, on a page in another language, that language too).
+- **The pages already in other languages stay exactly as they are**: published, found by Google, in the sitemap, with their language links. Nothing is deleted, unpublished or redirected. They are just not updated for now.
+- **New box on every traveltalk.dk post: "Oversæt til engelsk (traveltalk.travel)?"** – Ja (standard), Nej – aldrig, Senere. You only touch it when an article should *not* be translated. Under "Flere sprog" you can tick other languages for a single post; it is there for a later wave.
+- **New list: Translator → Afventer oversættelse** (on traveltalk.dk): posts set to Senere, each with an "Oversæt nu" button.
+- **Approve headline and intro, spot-check the rest.** "Translation: what to do now" shows the English headline and first paragraph with **Yes, fine** / **No**. When you say Yes, the **Publish** button appears.
+- **Flags no longer stop you.** With flags open, the button reads **"Publish despite N flag(s)"** and asks once – for a deadline, or when the flag does not matter. It is noted on the translation.
+- **English written for international readers.** Prices in Danish kroner come out as "DKK 5,000"; Danish-only references get a few words of explanation.
+
+### What you do differently
+- Update both sites (Dashboard → Updates), purge LiteSpeed.
+- On .dk: write as usual. Set "Nej" or "Senere" only when an article should not go to English now.
+- On .travel: open the draft, read headline and intro, click Yes, spot-check, Publish.
+
+### Good to know
+- Turn "English only" off in Settings and everything works as in 2.17.17; the other languages are kept, not removed.
+- Swedish, Norwegian and Finnish are made on traveltalk.dk only, as before, when ticked under "Flere sprog".
+- The steps panel (Structure, Links, Deepen…) is still there as help; it no longer stops publishing.
+- Articles published before installation keep whatever they had; the choice box applies from now on.
+- Tested: every file loads without errors; the English-only rules, the choice and the headline/intro extract with sample data. **Not tested on the live sites.** Please try one .dk post with Senere, and one translation from Yes to Publish.
+
+### Older translations
+- Not affected: existing translations in all languages stay as they are. Drafts waiting on traveltalk.travel get the headline/intro approval from installation on.
+
 ## 2.17.17 – 16 Nov 2026
 
 ### New
