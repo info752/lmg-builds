@@ -2,6 +2,22 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.17.19 – 18 Nov 2026
+
+### New
+- **Google's "default" version is now the English page.** When a reader's language has no version of a page, Google is told to show the English page on traveltalk.travel (until now: the Danish original). Pages without an English version keep the Danish original as default.
+
+### What you do differently
+- Nothing. Update both sites (Dashboard → Updates), purge LiteSpeed.
+
+### Good to know
+- After installation traveltalk.dk updates the existing pages by itself in the background, 15 pages a minute (about 133 pages, roughly 10 minutes), and passes the change to traveltalk.travel. Purge LiteSpeed on both sites once more after about 15 minutes.
+- Translator → Checker already expected English as default and stops reporting it once done.
+- Tested: the code loads without errors. Not tested on the live sites; Claude checks the pages from outside afterwards.
+
+### Older translations
+- Applies automatically: existing pages get the new default in the catch-up described above.
+
 ## 2.17.18 – 18 Nov 2026
 
 ### New
