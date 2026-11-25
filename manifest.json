@@ -149,7 +149,10 @@
    "built_from": "github.com-new d3ef66d",
    "sites": [
     "traveltalk.dk",
-    "traveltalk.travel"
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
    ]
   },
   "name:TT Travel Destinations Menu": {
@@ -211,6 +214,11 @@
   "name:LeisureSocial": {
    "name": "LeisureSocial",
    "version": "2.0.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/leisuresocial/leisuresocial-2.0.2.zip",
+   "sha256": "dd452bb66dde1dc19c25dbe66afce81471ed606f18209dc44e03d62a7cca00d7",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/leisuresocial/RELEASE-NOTES.md",
+   "summary": "The version that runs on traveltalk.dk, for every site.",
+   "built_from": "github.com-new fcfd5a4 (live copy from traveltalk.dk)",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
