@@ -287,7 +287,12 @@
   },
   "name:LMG Faktabokse": {
    "name": "LMG Faktabokse",
-   "version": "1.1.3",
+   "version": "1.2.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-faktabokse/lmg-faktabokse-1.2.0.zip",
+   "sha256": "ef3aa9ece5226cdbb09aac39a4aaac1aed53c2a13155f8c3b9380687255809fc",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-faktabokse/RELEASE-NOTES.md",
+   "summary": "Handed out earlier, not yet installed everywhere; in the list since 25 Nov 2026 (G).",
+   "built_from": "github.com-new 9937b63",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
@@ -310,6 +315,11 @@
   "name:LMG Fly There": {
    "name": "LMG Fly There",
    "version": "1.2.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-flythere/lmg-flythere-1.2.0.zip",
+   "sha256": "e2bd36d93e34005e9f292bc48d02b91f401c8a2a6c85c2034ea67211fe96867b",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-flythere/RELEASE-NOTES.md",
+   "summary": "Handed out earlier, not yet installed everywhere; in the list since 25 Nov 2026 (G).",
+   "built_from": "github.com-new 3d39d12",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
@@ -375,7 +385,12 @@
   },
   "name:LMG Positions": {
    "name": "LMG Positions",
-   "version": "0.3.0",
+   "version": "0.4.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-positions/lmg-positions-0.4.0.zip",
+   "sha256": "36ea42a76d1005dc08682f2a12b0e71d2889b590025e28c39fb3ac35c61e06d4",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-positions/RELEASE-NOTES.md",
+   "summary": "Handed out earlier, not yet installed everywhere; in the list since 25 Nov 2026 (G).",
+   "built_from": "github.com-new d918332",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
@@ -540,7 +555,12 @@
   },
   "name:TT Front Hero": {
    "name": "TT Front Hero",
-   "version": "1.3.1",
+   "version": "1.4.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-front-hero/tt-front-hero-1.4.0.zip",
+   "sha256": "d6eb6af28043037a5589e785fce6f71a94b6073434a3e4f28f71b28783beda43",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/tt-front-hero/RELEASE-NOTES.md",
+   "summary": "Handed out earlier, not yet installed everywhere; in the list since 25 Nov 2026 (G).",
+   "built_from": "github.com-new e94bcd1",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
@@ -617,7 +637,12 @@
   },
   "name:LMG Video Grid": {
    "name": "LMG Video Grid",
-   "version": "1.0",
+   "version": "1.0.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-video-grid/lmg-video-grid-1.0.1.zip",
+   "sha256": "44d436f467d268757f69f9a15c441ee8c1629f17b496896525b73ab6559c492a",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-video-grid/RELEASE-NOTES.md",
+   "summary": "Handed out earlier, not yet installed everywhere; in the list since 25 Nov 2026 (G).",
+   "built_from": "github.com-new 1b4d0e7",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
