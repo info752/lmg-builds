@@ -2,6 +2,23 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.21.2 – 25 Nov 2026
+
+### New
+- **The language front pages now fit the site they are on.** On winetalk.dk/en/ the top of the page said "Travel with soul" and "Destination guides and travel stories, written by people who have been there", the travel wording from traveltalk. The same happened on worldsporttalk.com/fr/ and /it/. Each site now gets its own wording, in every language: wine on winetalk.dk ("Wine first, then food"), sport on worldsporttalk.com ("World sport, in depth"), clear thinking on think-smarter.net ("Tools for clearer thinking"). traveltalk.dk, traveltalk.travel and vacation-talk.com keep the travel wording. The heading over the guides follows suit ("Wine guides", "Sport guides", "Guides").
+- **The headings no longer touch the left edge.** On winetalk.dk/en/ the "Latest articles" heading started right at the edge of the screen, so its first letter was cut. On sites whose theme does not add its own side margin (winetalk.dk, think-smarter.net), the page now keeps a margin on both sides and the same width as the rest of the site.
+
+### What you do differently
+- Nothing. Update and look at winetalk.dk/en/.
+
+### Good to know
+- Which wording a site gets is decided from its web address. A new site that is not travel, wine, sport or think-smarter gets the travel wording until it is added.
+- Checked on 25 Nov 2026: winetalk.dk/en/, worldsporttalk.com/fr/ and /it/ showed the travel wording. think-smarter.net had no language front page yet, so nothing showed there, but it is covered for when one appears.
+- Tested outside WordPress (the wording for each site and language). Not yet tested inside WordPress itself.
+
+### Older translations
+- Not affected. Only the fixed words at the top of each language front page change.
+
 ## 2.21.1 – 23 Nov 2026
 
 ### New

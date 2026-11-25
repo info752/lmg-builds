@@ -4,12 +4,12 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.21.1",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.21.1.zip",
-   "sha256": "3fa21ff6e7841a2da8379084124b5ddd118c86b354cba90ec9f41e19c6f90415",
+   "version": "2.21.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.21.2.zip",
+   "sha256": "25147d33f68f6eb5b7a812490606d8df12ea8a044dce288c93e6fcf4cbaafd1a",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Headings can no longer swallow the text under them; Translator → Heading check.",
-   "built_from": "github.com-new 70b95f1",
+   "summary": "Language front pages (/en/ and others) use the site's own wording: wine, sport or clear thinking instead of travel; headings no longer cut at the left edge.",
+   "built_from": "github.com-new 2312f31",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
