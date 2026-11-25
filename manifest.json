@@ -213,12 +213,12 @@
   },
   "name:LeisureSocial": {
    "name": "LeisureSocial",
-   "version": "2.0.2",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/leisuresocial/leisuresocial-2.0.2.zip",
-   "sha256": "dd452bb66dde1dc19c25dbe66afce81471ed606f18209dc44e03d62a7cca00d7",
+   "version": "2.0.3",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/leisuresocial/leisuresocial-2.0.3.zip",
+   "sha256": "1a6b55e475930c897d49112274dc74bc6b2c7a61876329bcf3a1ff713a73920b",
    "notes": "https://github.com/info752/lmg-builds/blob/main/leisuresocial/RELEASE-NOTES.md",
-   "summary": "The version that runs on traveltalk.dk, for every site.",
-   "built_from": "github.com-new fcfd5a4 (live copy from traveltalk.dk)",
+   "summary": "\"Copy for Instagram\" copies the caption again.",
+   "built_from": "github.com-new fac3049",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

@@ -2,6 +2,22 @@
 
 For editors. Newest first.
 
+## 2.0.3 – 25 Nov 2026
+
+### New
+- **"📷 Copy for Instagram" copies the caption again.** The button looked for the caption under the wrong name, so it copied nothing and said "The caption is empty". It now copies the Instagram caption from the Captions tab. The same fault and fix apply to "Copy for YouTube".
+
+### What you do differently
+- Nothing. Click "📷 Copy for Instagram", open the app and paste.
+
+### Good to know
+- If you edit the Instagram caption in the Captions tab first, your edited text is what gets copied.
+- Tested on a test WordPress with the classic editor: 2.0.2 copied nothing and showed "The caption is empty"; 2.0.3 copied the caption. Not tested on the live sites.
+- The captions are still written in Danish ("Læs hele artiklen", "Link i bio") on every site, also on traveltalk.travel. Not changed in this version.
+
+### Older content
+- Not affected. The share log on each post stays as it is.
+
 ## 2.0.2 – put in the LMG Updater list 25 Nov 2026
 
 ### New
