@@ -1,18 +1,21 @@
 {
- "updated": "2026-11-18",
+ "updated": "2026-11-25",
+ "note": "Entries with zip + sha256 are offered as updates; entries without are watched only (shown in Tools → LMG Updates, never offered). 'name:' entries are found on each site by plugin name.",
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.17.19",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.17.19.zip",
-   "sha256": "6a23899f1d294a561f99ad89063b1b299258aa82fab925ca5b50d3e9c026edc6",
+   "version": "2.21.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.21.1.zip",
+   "sha256": "3fa21ff6e7841a2da8379084124b5ddd118c86b354cba90ec9f41e19c6f90415",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Google's default version of a page is now the English one.",
+   "summary": "Headings can no longer swallow the text under them; Translator → Heading check.",
+   "built_from": "github.com-new 70b95f1",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
     "winetalk.dk",
-    "worldsporttalk.com"
+    "worldsporttalk.com",
+    "think-smarter.net"
    ]
   },
   "lmg-leisure-family/lmg-leisure-family.php": {
@@ -26,21 +29,8 @@
     "traveltalk.dk",
     "traveltalk.travel",
     "winetalk.dk",
-    "worldsporttalk.com"
-   ]
-  },
-  "lmg-updater/lmg-updater.php": {
-   "name": "LMG Updater",
-   "version": "1.1.2",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.1.2.zip",
-   "sha256": "a6af1885b1fde9d18d063cfe8e4b7b477b66ffb0e83cfbf8fcffcccc66257b73",
-   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-updater/RELEASE-NOTES.md",
-   "summary": "New versions show at once; site names in Tools > LMG Updates link to each site's updates.",
-   "sites": [
-    "traveltalk.dk",
-    "traveltalk.travel",
-    "winetalk.dk",
-    "worldsporttalk.com"
+    "worldsporttalk.com",
+    "think-smarter.net"
    ]
   },
   "lmg-concierge/lmg-concierge.php": {
@@ -54,7 +44,619 @@
     "traveltalk.dk",
     "traveltalk.travel",
     "winetalk.dk",
-    "worldsporttalk.com"
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "lmg-updater/lmg-updater.php": {
+   "name": "LMG Updater",
+   "version": "1.2.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.2.0.zip",
+   "sha256": "f32da3d65540b75f729cfec70f26af4f9d9c7d8700aad154311b9b3c2c0d00ca",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-updater/RELEASE-NOTES.md",
+   "summary": "The list covers all our plugins; single-file plugins; 'newer than the list' flag; Download a copy.",
+   "built_from": "github.com-new 8968e23",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Match": {
+   "name": "LMG Match",
+   "version": "0.3.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-match/lmg-match-0.3.1.zip",
+   "sha256": "aea053dd5c524bd2108cf4ce66cee5e07aa13f5c04d8450ea78b15df1fb76280",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-match/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new d918332",
+   "sites": [
+    "traveltalk.dk"
+   ]
+  },
+  "name:LMG Post Grid": {
+   "name": "LMG Post Grid",
+   "version": "1.0.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-post-grid/lmg-post-grid-1.0.2.zip",
+   "sha256": "3ac04898106dd15f8bb188c5cd4429fbf72ddd87e5bd96beec49b448601bf6b6",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-post-grid/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new 1b4d0e7",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel"
+   ]
+  },
+  "name:LMG Rank Math Keywords": {
+   "name": "LMG Rank Math Keywords",
+   "version": "1.0.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-rankmath-keywords/lmg-rankmath-keywords-1.0.0.zip",
+   "sha256": "75dfbe4a859c7287730b6aa38f8cdb77ddfc850158e32ceaf8468666d9020ca3",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-rankmath-keywords/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new 444296b",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel"
+   ]
+  },
+  "name:LMG .dk Image Bank": {
+   "name": "LMG .dk Image Bank",
+   "version": "1.0.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-dk-image-bank/lmg-dk-image-bank-1.0.0.zip",
+   "sha256": "95f0d8a6893db61832e4c572f2d98356182f4754c18b0e02e23db84584e893e2",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-dk-image-bank/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new ab1a995",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel"
+   ]
+  },
+  "name:LMG DK Language Redirects": {
+   "name": "LMG DK Language Redirects",
+   "version": "1.1.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-dk-lang-redirects/lmg-dk-lang-redirects-1.1.0.zip",
+   "sha256": "31fdc673ff85c6817833fbea3ed2fe74164aae6da080a716114da7a05b08ee47",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-dk-lang-redirects/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new 7e2d16f",
+   "sites": [
+    "traveltalk.dk"
+   ]
+  },
+  "name:LMG Rejsetilbud": {
+   "name": "LMG Rejsetilbud",
+   "version": "1.0.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-rejsetilbud/lmg-rejsetilbud-1.0.0.zip",
+   "sha256": "18e221ad0b59666a18f66d7f8b439e6fb6999fd0eaec566d600cbd33a3d8e2d2",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-rejsetilbud/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new a753f7a",
+   "sites": [
+    "traveltalk.travel"
+   ]
+  },
+  "name:TT Admin Speed Fix": {
+   "name": "TT Admin Speed Fix",
+   "version": "1.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-admin-speed/tt-admin-speed-1.2.zip",
+   "sha256": "6ba8ec228ab0018fb5b570a878badfc0f2ff5939bef22738e5d162e632cd3e90",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/tt-admin-speed/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new d3ef66d",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel"
+   ]
+  },
+  "name:TT Travel Destinations Menu": {
+   "name": "TT Travel Destinations Menu",
+   "version": "1.4",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-travel-destinations-menu/tt-travel-destinations-menu-1.4.zip",
+   "sha256": "f5392dd4e0af7e02e2d2e1d165169e7840f07312a11418955b3b1cba3d5dc9ec",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/tt-travel-destinations-menu/RELEASE-NOTES.md",
+   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
+   "built_from": "github.com-new 83da6e1",
+   "sites": [
+    "traveltalk.travel"
+   ]
+  },
+  "name:LeisureHealth": {
+   "name": "LeisureHealth",
+   "version": "1.4.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LeisureIntel": {
+   "name": "LeisureIntel",
+   "version": "3.7.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LeisureMaps": {
+   "name": "LeisureMaps",
+   "version": "1.3.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LeisureRelate Satellite": {
+   "name": "LeisureRelate Satellite",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LeisureSocial": {
+   "name": "LeisureSocial",
+   "version": "2.0.2",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Aianna Sidebar": {
+   "name": "LMG Aianna Sidebar",
+   "version": "1.0.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Brevo Bridge": {
+   "name": "LMG Brevo Bridge",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Cadence Status": {
+   "name": "LMG Cadence Status",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Code Guard": {
+   "name": "LMG Code Guard",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Competitors": {
+   "name": "LMG Competitors",
+   "version": "0.6.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Eager Above-Fold": {
+   "name": "LMG Eager Above-Fold",
+   "version": "1.2",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Faktabokse": {
+   "name": "LMG Faktabokse",
+   "version": "1.1.3",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Favorites GA4 Bridge": {
+   "name": "LMG Favorites GA4 Bridge",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Fly There": {
+   "name": "LMG Fly There",
+   "version": "1.2.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Ghost Block Fix": {
+   "name": "LMG Ghost Block Fix",
+   "version": "1.3",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Inline Newsletter": {
+   "name": "LMG Inline Newsletter",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG LiteSpeed Config Guard": {
+   "name": "LMG LiteSpeed Config Guard",
+   "version": "1.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Load Shield": {
+   "name": "LMG Load Shield",
+   "version": "1.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Plumbing": {
+   "name": "LMG Plumbing",
+   "version": "0.1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Positions": {
+   "name": "LMG Positions",
+   "version": "0.3.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Publishing Stats": {
+   "name": "LMG Publishing Stats",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Rejsefilm": {
+   "name": "LMG Rejsefilm",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Rejseinteresser Redirects": {
+   "name": "LMG Rejseinteresser Redirects",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG REST Auth": {
+   "name": "LMG REST Auth",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Search Suggest": {
+   "name": "LMG Search Suggest",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Signup Popup": {
+   "name": "LMG Signup Popup",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Versions": {
+   "name": "LMG Versions",
+   "version": "1.4.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Weekly Link Sweep": {
+   "name": "LMG Weekly Link Sweep",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG WST Speed": {
+   "name": "LMG WST Speed",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG — Block LiteSpeed Image-Optimizer Cron": {
+   "name": "LMG — Block LiteSpeed Image-Optimizer Cron",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG — Find din rejse (leverer)": {
+   "name": "LMG — Find din rejse (leverer)",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG — Menu Auto-add": {
+   "name": "LMG — Menu Auto-add",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:TravelTalkBook Offers": {
+   "name": "TravelTalkBook Offers",
+   "version": "4.1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:TravelTalk Performance Hints": {
+   "name": "TravelTalk Performance Hints",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:TT Front Hero": {
+   "name": "TT Front Hero",
+   "version": "1.3.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:TT Nordic hreflang": {
+   "name": "TT Nordic hreflang",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:TT Nordic Link Resolver": {
+   "name": "TT Nordic Link Resolver",
+   "version": "1.1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Ads": {
+   "name": "LMG Ads",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Complianz Guard": {
+   "name": "LMG Complianz Guard",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Site Monitor": {
+   "name": "LMG Site Monitor",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG UCSS Drawer Guard": {
+   "name": "LMG UCSS Drawer Guard",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG Video Grid": {
+   "name": "LMG Video Grid",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:LMG — No 404 URL Guessing": {
+   "name": "LMG — No 404 URL Guessing",
+   "version": "1.0.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:TravelTalk.travel Performance Hints": {
+   "name": "TravelTalk.travel Performance Hints",
+   "version": "1.0",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "name:Traveltalk 404 Logger & Redirect": {
+   "name": "Traveltalk 404 Logger & Redirect",
+   "version": "1.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
    ]
   }
  }

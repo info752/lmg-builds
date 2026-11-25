@@ -2,6 +2,459 @@
 
 For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
 
+## 2.21.1 – 23 Nov 2026
+
+### New
+- **Headings can no longer swallow the text under them.** On "Everything About Camping Holidays" the "Know before you go" heading lost its end, so the questions and answers below it showed in big heading letters. Every heading now ends where a heading must end: at its own end, a blank line, a paragraph, the next heading or a box. Text that was swallowed comes back as normal text. This covers every heading size (H1 to H6), not only the small headings fixed in 2.3.2.
+- **The "Know before you go" box repairs itself.** If its questions were folded into the title or into each other, the box is drawn again as: title, then each question as a small heading with its answer under it. The Google question markup reads the repaired box too.
+- **Translator → Heading check.** A new page that checks every page and post on the site (originals and translations, published or not) and lists those with a swallowed heading. "Repair all" fixes them in one click.
+- **Daily check.** Once a day Translator checks the whole site. If it finds a swallowed heading, a yellow line at the top of wp-admin says how many and links to Heading check.
+
+### What you do differently
+- After installing, open Translator → Heading check once and click "Repair all".
+- If the yellow line shows up later, click its link and "Repair all" again.
+
+### Good to know
+- The repair runs in four places: when a page is saved (by you, by Translator or by any other tool), before a text is sent for translation, when a visitor opens the page, and in Heading check. A visitor never sees a swallowed heading, even before the page is saved again.
+- No word is removed. If a repair would make the text shorter, it is not done.
+- The 2.3.2 repair could, in rare cases, take the paragraph markup out of a whole section after a broken heading. That repair is replaced.
+- A heading written as a whole sentence (for example "Laos is one of Asia's smallest countries, but big on travel experiences.") is left alone, because it may be on purpose.
+- Tested against 38 sample texts, including the camping box exactly as it was saved, and against 310 published pages on traveltalk.travel: 4 needed a repair (Camping Holidays, Canada, Nigeria and Golf in Ireland, the last three only a stray heading end) and the other 306 stayed exactly as they were. Not yet tested inside WordPress itself.
+
+### Older translations
+- Fixed for visitors from installation on, without changing the saved text.
+- The saved text is repaired the next time a page is saved, or at once with Translator → Heading check → "Repair all". The previous version of each page stays under Revisions.
+
+## 2.21.0 – 23 Nov 2026
+
+### New
+- **One Translator panel.** Every Translator box that used to sit on the right of the edit screen (Translations, Structure, Pictures, More about, traveltalk.travel, and on translations "What to do now", "Translation check", "Danish original") is now a section inside the one "LMG Translator" panel below the text. The steps come first, then the sections. Click a section's name to open or close it; the panel remembers what you left open.
+- **Every "to do" now has a button.** If a step says "● to do", the button that does it is on the right. If what is left can only be done by hand in the editor, the step says "● to do by hand" and tells you exactly what to change and where.
+- **Step 1 (Goal) can now be worked from step 1.** Every red ✗ says what is wrong, what to click, and whether another step already handles it, with its own button:
+  - **Table of contents:** nothing added one before, not even marking the page as pillar. "Insert the table of contents" puts one in after the intro, before the first section, listing the section headings with jump links. After changing headings, click "Update the table of contents".
+  - **Pages linking here:** "Propose links to this page" is now in step 1 too. On a page with no category (pillars often are pages) it now also finds posts that mention the page's focus keyword, and a pillar's own supporting posts are asked first.
+  - **Marked as pillar in Rank Math:** "Mark as pillar" sets it in one click.
+  - **Supporting posts:** "0 supporting posts chose this pillar" no longer shows a green tick. It now shows as advice (○), with up to 6 related posts you can tick and make supporting posts in one click. Their text does not change.
+- **Clearer texts in Deepen, Structure, Tone, SEO and Boxes.** "Practical part middle" now reads "The practical part is in the middle (the section …). Readers look for it near the end. Propose the structure moves it there." Each SEO ✗ says where in Rank Math to fix it.
+- **Structure: "Remove the repeated heading"** takes out a section heading that only repeats the title, keeping the text under it.
+- **SEO on an original without a focus keyword:** a "Set the focus keyword" button. A keyword or description you have set is never changed.
+- The yellow "Next" line names the first open check, so it says what its button is for.
+
+### What you do differently
+- Look for the Translator boxes in the one panel below the text, not on the right.
+- In step 1, click the button under each red ✗, or the big button on the right (it does the first one).
+
+### Good to know
+- The table of contents is Translator's own box, not Rank Math's block, so it works in any editor and in translations. It does not update itself when you change headings: click "Update the table of contents" in step 1.
+- If a text already has a table of contents of another kind (Rank Math's block, Easy TOC), Translator leaves it alone.
+- Not tested on the live sites, only on test text: check one pillar page after installing (insert the table of contents, look at it in the editor and on the page).
+- The one-panel layout can be switched off if it causes trouble (ask Claude; there is no button for it yet).
+
+### Older translations
+- Not affected. The panel and texts apply to every page from installation on; nothing in any text changes until you click a button.
+
+## 2.20.0 – 23 Nov 2026
+
+### New
+- **A translation counts as new content when it goes live.** Its publish date is now the moment it is published, not the day its draft was made or last saved. The sitemap shows it as updated at that moment too, so Google sees traveltalk.travel (and the language versions on traveltalk.dk) growing every time a translation goes live.
+- **Translated destination guides now reach the feed and the "latest" lists on traveltalk.travel,** not only translated articles. Until now a translated country guide such as Botswana or New Zealand never appeared in the RSS feed.
+- **Fuller structured data (what Google reads behind the page), on both sites:**
+  - The headline is the article's own title, without "- traveltalk.travel" after it.
+  - The writer is the real writer of the Danish original. Until now Google was told the author of every copied page on traveltalk.travel was "LMG Translator bridge". Where the writer is not known yet, Traveltalk itself is named.
+  - Each page states one language, its own. Before, the same English page said both "en" and "en-US", and a German page said "de" in one place and "en-US" in another.
+  - A translation says which page it is a translation of, and the Danish original lists its translations. This repeats the language links Google already gets, in a second form it understands.
+  - Destination guides are marked as a travel destination (for example "Botswana", in "Africa"), so Google ties the page to the place and not only to words.
+  - The main picture's caption is in the page's language, or left out. Before, English and German pages carried the Danish caption.
+
+### What you do differently
+- Nothing. Publish translations as before.
+- Each part can be switched off under **Translator → Settings → New content**.
+
+### Good to know
+- Scheduled translations keep the time you scheduled them for.
+- A translation that is taken down and put back keeps the date it first went live.
+- The writer's name travels with translations made or copied from now on. Older copies on traveltalk.travel show Traveltalk as the author until they are copied again from traveltalk.dk.
+- Tested on a copy of the Botswana page's structured data, not on the live sites. After installing, check one guide and one article in Google's Rich Results Test (search.google.com/test/rich-results).
+- traveltalk.dk could not be reached from where this was built, so its pages were not checked before the change. The old "TravelTalk Schema Enhancements" snippet on traveltalk.dk (if it is still active) says "da-DK" on every page, also Swedish, Norwegian and Finnish ones; it can be switched off once this version is in.
+
+### Older translations
+- Their dates are not changed. Every translation already live keeps the date it has, and that date is recorded as its go-live date on the first visit to wp-admin after the update.
+- The structured-data fixes apply to all pages, old and new, from installation on.
+- The feed change applies at once; older translated guides appear in the feed by the date they have.
+
+## 2.19.6 – 23 Nov 2026
+
+### New
+- **Fixed: the edit screen broke on some articles.** On an article with "Who takes you there" suggestions but no company ticked yet, the Translations box hit an error. The rest of the edit screen then never loaded, so the editor looked empty ("Word count: 0") although the text was saved and safe. Seen on "Verdura Resort: Luksusgolf på Sicilien".
+- **Safety net:** if any LMG box on the edit screen runs into an error in future, only that box shows a red line saying so. The editor, the other boxes and the Publish button keep working.
+
+### What you do differently
+- Nothing. Open the article again after installing: the text is back in the editor.
+
+### Good to know
+- Your text was never lost. The empty editor was a display fault; saving from it did not wipe the text (Translator already refuses to save an empty editor over a saved text).
+- Verdura Resort is a draft at the moment, so visitors get "page not found". You still see it because you are logged in. Press **Publish** (Udgiv) on it after installing.
+- Tested on a mock-up of the failing box, not on the live site.
+
+### Older translations
+- Not affected. The fix applies to every article from installation on.
+
+## 2.19.5 – 22 Nov 2026
+
+### New
+- **A new step, Tone, right after Structure** in the steps panel at the top of the edit screen, on Danish originals and translations alike. Claude reads the text against the house-style tone rules ("Tone: what rings true") and lists the passages that break one. For each passage you see:
+  - the words themselves,
+  - the rule number it breaks (point at the number to see the rule) and why, in one line,
+  - a proposed rewrite that keeps the meaning and uses only facts already in the text.
+- **It never invents facts.** If a good fix needs something the text does not have (a place, a time, a number, a person's name, a source), the step says **"Needs a concrete detail"** and names what is missing. A rewrite that brings in a number or a name the text does not have is held back and shown the same way.
+- **The status line in the step says it in one go:** "Tone: 3 passages to look at" or "Tone: OK".
+- **Runs by itself on new articles:** a post is checked a couple of minutes after it is first published, and so are its automatic translations. Older texts: click **Check the tone** in the step. **Prepare all** and **Accept all waiting** include Tone, after Structure.
+- **The rules live in Translator → Settings → Tone**, filled in with the 11 rules from the house style. Add, change or remove rules there; the next check uses them, with no new version needed.
+
+### What you do differently
+- When the Tone step says "waiting for you", read each passage. Every rewrite is ticked. Untick the ones you do not want, then click **Accept: put the ticked in the text**. The ones you untick are rejected. **Reject all** leaves the text as it is.
+- "Needs a concrete detail" has no tick box: add the detail by hand in the editor if you know it, or leave the passage.
+- A passage that runs across a link or bold text cannot be put in by itself. The step says so; change it by hand.
+
+### Good to know
+- **Advice only.** Tone never holds up publishing, also not while proposals wait.
+- **Service pages are left alone.** Translator → Settings → Tone → "Leave these pages alone" starts with `travel-services`. Please add the agency pages there: a page ID or a word from their address, one per line. Their subpages are left alone too.
+- Rewrites change single passages, never the whole article. The previous version is under Revisions.
+- Accepting Tone on a Danish original does not send its translations off to be translated again; each translation has its own Tone step.
+- Each check is one Claude call (about as much as Structure). Automatic checks only run on articles first published after you install this version, and on their automatic translations.
+- **Not tested on the live sites, nor with Claude itself.** It was tested on a mock-up with a made-up Claude answer about the wellness text (post 82855): the proposal, the tick boxes, Accept, the check for invented numbers and the service-page skip. Please open post 82855 and click **Check the tone** once after installing.
+
+### Older translations
+- Not changed by installing. Older texts and translations show the step as "not checked yet" and are checked only when you click **Check the tone**. New articles and their automatic translations are checked by themselves from installation on.
+
+## 2.19.4 – 22 Nov 2026
+
+### New
+- **Fixed: the screen went blank for a while after "Save the goal" or Update.** When the article page came back, Translator checked links it could not place by asking the web, up to six of them at up to six seconds each. That could take half a minute on worldsporttalk.com. The page no longer waits for that: links already checked keep their result, and new links it cannot place are shown as "not checked yet" in the Links step until you click **Count again**. Saving a goal no longer recounts the links at all.
+
+### What you do differently
+- When the Links step says some new links are "not checked yet", click **Count again** there to check them.
+
+### Good to know
+- Not tested on the live sites before delivery: the change only shows once installed. Please save the Maradona post once after installing; I will time the page on worldsporttalk.com.
+
+### Older translations
+- Not affected.
+
+## 2.19.3 – 22 Nov 2026
+
+### New
+- **The translations list on worldsporttalk.com is no longer squeezed** (Translator → Translations).
+  - Each column now gets the room its content needs: titles and originals read on a few lines instead of a narrow strip, and the Rank Math and page-view columns are no longer pressed to nothing.
+  - When there are more columns than fit the screen, the list scrolls sideways instead of squeezing everything.
+
+### What you do differently
+- Nothing. To make the list fit without scrolling, untick columns you do not use under **Screen Options** (top right), for example ID, Pictures or Views 30d. WordPress remembers your choice.
+
+### Good to know
+- Checked on the live worldsporttalk.com translations list in the browser, signed in, by applying the same layout to the page and measuring it: rows went from about 310 to about 175 pixels high, the title column from 173 to 240 pixels, and no column is squeezed to zero. The installed plugin itself has not been tested live yet: please open the list once after installing and say if it looks right.
+- Only the translations list changes. The ordinary Posts and Pages lists keep their layout.
+
+### Older translations
+- Not affected.
+
+## 2.19.2 – 22 Nov 2026
+
+### New
+- **The translations list is readable again** (Translator → Translations, most visible on worldsporttalk.com, which has more columns from other plugins).
+  - The title and the original get room; Translator's small columns (Language, Flags, Words, Structure) are kept narrow.
+  - "Translations" is no longer shown on that list: it only means something on an original.
+  - ID, Pictures and Views 30d start hidden there. Turn them on again under **Screen Options** (top right) if you want them.
+- **Fixed: "Views 30d" showed "00"** (the number twice) on translations. It now shows the number once.
+
+### What you do differently
+- Nothing. If the list still looks crowded, open **Screen Options** and untick the columns you do not use. WordPress remembers your choice.
+
+### Good to know
+- If you have changed Screen Options on that list before, WordPress keeps your own choice, and ID, Pictures and Views 30d are not hidden for you. Untick them there.
+- Tested on a mock-up of the list with the same columns. Not tested on the live sites.
+
+### Older translations
+- Not affected.
+
+## 2.19.1 – 22 Nov 2026
+
+### New
+- **Fixed: "Page not found" at wp-admin/[object HTMLInputElement].** Buttons that send ticks or choices went to a wrong address instead of running. This hit "Write the ticked sections", updating the original from the English version, "Add the ticked sections" with unsaved edits, and the other buttons that run in the background. Since 2.17.27 on every site; seen on winetalk.dk. They now go to the right address.
+
+### What you do differently
+- Nothing. Click the button again on the article where it failed.
+
+### Good to know
+- Nothing was changed on the server by the failed clicks: they never reached Translator.
+- Tested on a mock-up of the edit screen with the same kind of form: it now runs in the background and shows its result. Not tested on the live sites.
+
+### Older translations
+- Not affected.
+
+## 2.19.0 – 22 Nov 2026
+
+### New
+- **A goal for each article: the new first step, "Goal".** Choose one of three, and the step shows what is still missing, each with what to do. Saving a goal never changes the text.
+  - **Pillar – the main page on the subject.** Checks: at least 1,500 words, a table of contents, 5 or more pages linking to it, marked as pillar in Rank Math (set for you when you save), and that every supporting post links up to it.
+  - **Supporting post – belongs to a pillar.** Choose its pillar from a list. Checks: it links up to the pillar, it has its own narrower keyword so the two do not compete in Google, and the pillar links down to it. **Propose links** now always proposes the link up to the pillar first.
+  - **Top 10 on Google.** Checks: Rank Math score green (81 or more), 2 or more pages linking to it, and a content comparison. Deepen gets a new button, **Compare with the top 10**: Claude lists what the pages that rank best for your keyword usually cover and this article lacks. You then write the sections with Deepen as before.
+  - Being an authority (facts from the text, sources, depth) is part of every step for every article, so it is not a separate choice.
+- **Deepen on worldsporttalk.com and winetalk now thinks sport and wine.** The content check was always asked about a "travel article" and could suggest travel companies. It now uses the site's own subject, and suggests companies only on travel sites.
+
+### What you do differently
+- Open an article, choose its goal in step 1 and press **Save the goal**. Then work down the red ✗ in that step.
+- For a supporting post, choose the pillar first, then use Links → Propose links.
+
+### Good to know
+- "Compare with the top 10" uses what Claude knows about the kind of pages that rank for a search. It does not read Google's live results.
+- A post is offered as a pillar when it has the goal Pillar, or is marked as pillar in Rank Math.
+- Translations (the language versions) do not get the Goal step; it belongs on the original.
+- Tested: the code loads, and the goal checks were run on test data for all three goals. Not tested on the live sites.
+
+### Older translations
+- Not affected. Articles have no goal until you choose one.
+
+## 2.18.1 – 22 Nov 2026
+
+### New
+- **Steps that only propose now run in the background.** Find content gaps, Write the ticked sections, Propose the structure, Propose links (out and in), Count again, the boxes (questions, fact box, map), Set SEO / Write the meta description, Suggest extra keywords and Fix the flags no longer freeze the page.
+  - A small panel at the bottom right shows what is running and for how long. You can go on reading, scrolling and editing.
+  - When it is ready the panel turns green with the result and a **Show it** button. **Later** closes it.
+  - If you have unsaved edits, Show it saves them first.
+  - Several steps can run at once, each with its own line in the panel.
+- **A step keeps running on the server even if you leave or reload the page.** Its result is in the steps panel the next time you open the article.
+
+### What you do differently
+- Click a step once, keep working, and press **Show it** when the panel turns green.
+
+### Good to know
+- Steps that change the text (Accept, Add the ticked sections, Reject) still reload the page straight away. They are quick, and you should see the new text at once.
+- The browser asks before you leave the page while a step is still running. Leaving is safe; the step finishes on the server.
+- Tested on a mock-up of the edit screen: the step ran in the background while text was typed, and the result appeared in the panel. Not tested on the live sites.
+
+### Older translations
+- Not affected.
+
+## 2.18.0 – 22 Nov 2026
+
+### New
+- **One main button per step.** Each step in "Translator – steps" now shows the one button you most likely want. The other buttons (propose again, count again, remove a box) are under a small **More ▾** link below it. A step that waits for you still shows Accept and Reject side by side.
+- **SEO step shows the Rank Math score** (red, orange or green) and the checks behind it, each with what to do: keyword in the title, in the meta description, in the first part of the text, in a subheading and in the address, and the length of the meta description. The step is done when the keyword and meta description are there and every check is green.
+- **"Write the meta description"** in the SEO step of an original article, when it has none. Claude writes it with your focus keyword in it. Your keyword and the address are never changed, and a description you have written yourself is never replaced.
+- **The boxes speak the site's language.** On worldsporttalk.com (and winetalk) the Boxes step no longer names travel boxes. It says "Good to know" instead of "Know before you go", and "Who takes you there" is not mentioned. On sport and wine, the step counts as done once the fact box is in.
+- **"Text changed since" only where it matters.** It is shown only next to a proposal that is waiting for you, because only there can it be out of date. Elsewhere you just see when the step last ran.
+- **Fixed: the Accept buttons for the map, fact box and questions** looked like plain links. They are proper buttons again.
+- **The panel never runs into the right-hand column.** In a narrow main column each step is shown as a block: name and state first, then the text, then the buttons.
+
+### What you do differently
+- Use the main button of each step; open **More ▾** only for the less common actions.
+- In SEO: fix what has a red ✗, press Update, and watch the score.
+
+### Good to know
+- Rank Math works out its score in the editor when you press Update. Translator shows the score Rank Math saved last, so after a change press Update once to see the new number.
+- Not in this version: steps that take a long time still keep the page busy until they finish. Moving them to the background is the next piece of work.
+- Tested on mock-ups of the steps panel at wide and narrow widths. Not tested on the live sites. Please open one article on each site.
+
+### Older translations
+- Not affected. Applies from installation on.
+
+## 2.17.30 – 22 Nov 2026
+
+### New
+- **"Prepare all" and "Accept all waiting" work again.** They did nothing when clicked: the buttons were not connected. Now they run.
+- **You can see that it is working.** While Prepare all runs, a dark panel under the two buttons (and a bar at the top of the screen) shows a spinner, which step is running ("Step 2 of 3: Structure"), about how much time is left, the time so far and a progress bar. If a step takes longer than usual it says so, and that it is still working.
+- **All buttons are locked while it runs,** and the browser warns you if you try to leave the page. At the end it says "Done" and the page reloads with the proposals to read.
+- **Prepare all now also finds content gaps** (Deepen) when the text is too short, before the other steps.
+
+### What you do differently
+- Click Prepare all once, wait for "Done", then read the proposals below and press Accept all waiting (or accept them one by one).
+
+### Good to know
+- The time left is an estimate (about 40–60 seconds a step). Long texts or a busy server can take longer; the panel then says "Taking longer than usual".
+- Tested on a mock-up of the steps panel: the buttons start, the panel counts down step by step, and the page reloads with the result. Not tested on the live sites. Please try it once on post 53494 on traveltalk.dk.
+
+### Older translations
+- Not affected.
+
+## 2.17.29 – 22 Nov 2026
+
+### New
+- **The steps are readable again.** In 2.17.26–2.17.28 the text column of the steps could shrink to a word per line, and the fact-box preview to one letter per line. The text column now always keeps a readable width, the preview table fills it, and the buttons still wrap so the box stays inside the main column.
+
+### What you do differently
+- Nothing.
+
+### Good to know
+- Tested on a mock-up of the steps panel at main-column width, with the fact-box preview and three buttons in a row. Not tested on the live sites. Please open one article on worldsporttalk.com and one on traveltalk.dk.
+
+### Older translations
+- Not affected.
+
+## 2.17.28 – 21 Nov 2026
+
+### New
+- **The "Working…" bar now always shows while a step runs.** If you answer OK on "You have unsaved changes", the dark bar at the top now appears, and the other buttons are locked until the page comes back. Before, nothing showed, so a slow step like "Add the ticked sections" looked as if it had done nothing.
+
+### What you do differently
+- Nothing. Wait for the bar to finish; do not click again.
+
+### Good to know
+- Adding sections saves the whole post, and other plugins (SEO, cache) also run on that save. On a busy server that can take a minute or more. The bar says so, and the page reloads by itself with the result.
+
+### Older translations
+- Not affected.
+
+## 2.17.27 – 21 Nov 2026
+
+### New
+- **Your edits are saved first, then the Translator step runs, for every button.** Until now this worked for the link-style buttons only. Buttons that send a choice (Deepen → "Add the ticked sections", "Discard all", and the other buttons with ticks) showed "You have unsaved changes… OK: your unsaved changes are lost" instead. Now they save the post the same way as Update, then carry on with what you ticked.
+- **No more false "unsaved changes".** Translator now asks WordPress the same question WordPress uses for its own "leave page?" warning: has the title, text or excerpt really changed? Before, the text editor could report a change that was never made, just from opening the page. Moving around with Tab, arrow keys or shortcuts no longer counts as a change either.
+
+### What you do differently
+- Nothing. If you have made real changes, you will see "Saving your edits first…", the page reloads once, and the step continues by itself.
+
+### Good to know
+- Tested on a mock-up of the edit screen: with a change made, "Add the ticked sections" saved first and then added the ticked sections, with no warning. Not yet tested on the live sites. Please try it once on the Las Vegas article.
+- The block editor already saved first; it is not changed.
+
+### Older translations
+- Not affected. Applies from installation on.
+
+## 2.17.26 – 21 Nov 2026
+
+### New
+- **The Translator box stays inside the main column.** Buttons in the steps (Propose "Know before you go", Propose the fact box, Propose the map) now wrap onto new lines instead of pushing the box over the widgets on the right. All sites with Translator.
+
+### What you do differently
+- Nothing.
+
+### Good to know
+- Tested on a mock-up at main-column width. Not tested on the live sites.
+
+### Older translations
+- Not affected.
+
+## 2.17.25 – 20 Nov 2026
+
+### New
+- **No more copied intros.**
+  - When a text opens with a label heading such as "Artiklen", "Intro" or "Indledning", Structure now proposes taking that heading out, so the first paragraph becomes the intro. It no longer writes a "new" intro that repeats that paragraph.
+  - An intro from Claude that repeats sentences already in the text is left out, and the proposal says so.
+  - Claude is told to write new sentences and never to name or link another article in the intro.
+- **No links in the opening words.** Links are no longer placed in the first two sentences of a text (about the first 200 characters). Claude is also told to link only where the linked page is about what that sentence is about.
+
+### What you do differently
+- Update both sites with the zip (Plugins → Add New → Upload Plugin → Replace current with uploaded), then purge LiteSpeed.
+- **On "Vinrejser i Italien" (traveltalk.dk, post 94018):** open Revisions and go back to the version from before the first "structure accepted". Or, by hand: delete the opening paragraphs above the heading "Artiklen", then delete the heading itself. Then run Structure again.
+
+### Good to know
+- Links already in texts are not moved. Links that are in the opening words today stay until you remove them.
+- Tested: the label-heading and copy checks on a sample text. Not tested on the live sites.
+
+### Older translations
+- From installation on: applies to new proposals only. Texts changed earlier stay as they are until fixed by hand or through Revisions.
+
+## 2.17.24 – 20 Nov 2026
+
+### New
+- **Working links are no longer called "not found".** The Links step now recognises a link to a page that shares its address with a category (such as /rejseinteresser/vinrejser/), and links to category and tag pages.
+- **Moved links are named, with a one-click fix.** A link that still works but goes through a redirect (such as /emilia-romagna/, which now lives at /rejsemal/europa/italien/emilia-romagna/) shows as "moved", with its new address. A new button, **Point moved links at the new address**, changes only those links. Only links that really lead nowhere still say "not found".
+- **Structure settles in one go.** When Claude cannot write a practical part (the text has no facts about when to go or getting there), or finds nothing to move, the proposal now says so. Accepting the proposal settles the step, instead of leaving "Practical part missing" so you try again and again.
+
+### What you do differently
+- Update both sites with the zip (Plugins → Add New → Upload Plugin → Replace current with uploaded), then purge LiteSpeed.
+- Under Links → Show the links, use **Point moved links at the new address** when it appears.
+- If Structure says "No practical part written", add the practical facts by hand if the text needs them; the step still counts as done.
+
+### Good to know
+- To find moved links, the site asks itself about up to 6 unclear addresses each time it counts. If the host blocks the site from asking itself, those links still show as "not found".
+- Tested: the code loads without errors. Not tested on the live sites. Both addresses from your screenshot were checked from outside: /rejseinteresser/vinrejser/ answers (page 92657), and /emilia-romagna/ redirects to the address above.
+
+### Older translations
+- Applies automatically: links are counted again the next time a page is opened, and existing texts are not changed until you press the button.
+
+## 2.17.23 – 20 Nov 2026
+
+### New
+- **Prepare all.** A new blue bar above the steps has two buttons. **Prepare all** lets Claude propose every step that is "to do", one after another: Structure, Links, Links to this page, Know before you go, Fact box and Map. A "1 of 5…" bar shows how far it has come. Nothing in the text changes. On a long text it takes a few minutes; leave the page open.
+- **Accept all waiting.** After Prepare all, read the proposals in the steps. You can untick links, reject any proposal on its own, or edit the text. Then press **Accept all waiting**: everything still waiting goes into the text in the right order (Structure first, then links, then the boxes), with your ticks as they stand. You are asked once to confirm. Every step keeps the previous version under Revisions.
+- **All waiting boxes show together.** Until now the map, fact box and questions waited one at a time. Now they show side by side, so they can be accepted in one go.
+- **Structure no longer reopens after links.** "Checked: kept as it is" now looks only at the headings and the intro. Accepting links, boxes or a map no longer sends Structure back to "to do".
+
+### What you do differently
+- Update both sites with the zip (Plugins → Add New → Upload Plugin → Replace current with uploaded), then purge LiteSpeed.
+- New way of working, per text: **Prepare all** → read and adjust → **Accept all waiting** → look at the preview → Publish. The single-step buttons are still there for going back, redoing a step or overruling it.
+
+### Good to know
+- If you edit the text between Prepare all and Accept all, the structure proposal is refused (it was made from the older text) and the summary says so. Run that step again on its own.
+- A step that gets no answer (the host stopped it) is named in the summary; the other steps still run.
+- "Links to this page" changes other pages only when you accept it, and only those pages.
+- Tested: the order of steps and the summary were checked in a browser on a sample panel. Not tested on the live sites.
+
+### Older translations
+- Applies automatically: the buttons show on every edit screen from installation on. A "kept as it is" mark from 2.17.20–2.17.22 counts once more after one new "Propose the structure".
+
+## 2.17.22 – 20 Nov 2026
+
+### New
+- **The green "Done" bar goes away by itself.** It shows for 8 seconds, then fades; it stays while your mouse is on it, and Close still works. The same message stays at the foot of the "Translator – steps" panel as **Last result**, so you can read it again. Reloading the page no longer brings the bar back.
+
+### What you do differently
+- Update both sites with the zip (Plugins → Add New → Upload Plugin → Replace current with uploaded), then purge LiteSpeed.
+
+### Good to know
+- Tested: the bar fades after 8 seconds and the "Last result" line appears, checked in a browser on a sample page. Not tested on the live sites.
+
+### Older translations
+- Not affected: this only changes how messages are shown on the edit screen.
+
+## 2.17.21 – 19 Nov 2026
+
+### New
+- **The Links step says in plain words what is missing.** It says either "Done: links out and links in are in place", "To do: links out" (this text links to fewer than 2 of our pages) or "To do: links in" (fewer than 2 other pages link to this one). Before, a post could show "to do" right after you accepted its links, without saying why.
+- **New button: "Propose links to this page".** It finds published pages that share a category with this one, plus its country or region page, and proposes one link in each, in a sentence that page already has. You tick which ones you want and press Accept. Only those pages change, and each keeps its old version under Revisions. A page edited in the meantime is left alone.
+- **Map links are shown apart.** The Links step adds "Plus N from the map dots". Map links are added when the page is shown, so they are not in the written count.
+- **Boxes and other steps no longer hang.** A click now waits at most about two and a half minutes for Claude. If no answer comes, it says so and changes nothing. If the server stops a step without answering, the "Working" bar now says so after three and a half minutes and gives you a "Reload the page" button, instead of spinning for ever.
+
+### What you do differently
+- Update both sites with the zip (Plugins → Add New → Upload Plugin → Replace current with uploaded), then purge LiteSpeed.
+- On a post that says "To do: links in", click **Propose links to this page**, read the list, untick what you don't want, then Accept.
+- If a box says Claude took too long, click it once more. Very long texts (Italy, about 4,200 words) can need two tries.
+
+### Good to know
+- "Links in" counts only links written in other pages' text, not menus, grids, map dots or the Read more box.
+- On a translation, the proposed pages are the translations, in the same language, of the original's category neighbours.
+- Tested: the code loads without errors. Not tested on the live sites. Why Italy hung for 10 minutes is not proven: the likely cause is the host stopping the page after a few minutes. If it still happens, tell me which button it was and how long it ran.
+
+### Older translations
+- Applies automatically from installation on: the Links step re-reads every page the next time it is opened. Nothing is changed in any text until you accept a proposal.
+
+## 2.17.20 – 19 Nov 2026
+
+### New
+- **Every dot on a map is now a link.** A place with an article of its own links to it. A place without one links to the country or region page shown in the article's "Read more" box. Only when there is no such page does the dot jump to the place in the list under the map. The links are looked up again once a day, so a place gets its own link once an article about it is published.
+- **Ideas for new articles from the map.** In the steps panel, under Boxes, the map places that have no article of their own are listed as ideas for new articles.
+- **"Propose the structure" no longer loops.** The check reads headings in the page's own language only, and only the last three main headings decide whether the practical part is at the end. A road trip with a "getting there" stage early on is no longer reported as "practical part in the middle". When Claude finds nothing to change, the step says "Checked by Claude: nothing to move, kept as it is" and counts as done until the text changes.
+- **"Possible errors in this original": Dismiss ticked.** Tick the notes you don't want and click **Dismiss ticked**; the article stays unchanged. Notes where Claude's own reason says "ignore" or "no change needed" are no longer shown at all. "Apply ticked" now also finds text with curly quotes, dashes or extra spaces.
+- **Find pictures stays an option.** When it is switched off, the Pictures box no longer shows a button that ends in "Sorry, you are not allowed to access this page". It says where to switch it on instead.
+
+### What you do differently
+- Update both sites with the zip (Plugins → Add New → Upload Plugin → Replace current with uploaded), then purge LiteSpeed.
+- For an extra picture: Translator → Parts → tick "Find pictures" → Save (administrator). The Pictures box on the edit screen then shows the **Find pictures** button.
+- On the edit screen: if a note under "Possible errors" can't be applied, tick it and click **Dismiss ticked**.
+
+### Good to know
+- A map gets its new links the first time someone opens the page after the update. They are filled in in the background, so the links show from the next page view (after a LiteSpeed purge where the page is cached).
+- A dot that links to the country or region page passes value to that page, not to the place itself. The article ideas under Boxes show which places would deserve a page of their own.
+- Not built in this version: a related-articles grid for posts written on traveltalk.travel itself (post 1727, for example). Today that grid is copied from the Danish original's grid, so .travel's own posts don't get one. That comes as its own version after a short brief.
+- Tested: the code loads without errors, and the map links were checked on a sample map (a dot without an article got the hub link; a dot with an article kept its link). Not tested on the live sites.
+
+### Older translations
+- Maps already in articles: applies automatically. Their dots get links from the first page view after installation; nothing in the text changes.
+- Structure: applies automatically. The new check is used from installation on. Articles stuck on "practical part in the middle" may now show as done; for the rest, one click on "Propose the structure" settles it.
+- Possible errors: applies automatically. Notes that say "no change needed" disappear from installation on.
+
 ## 2.17.19 – 18 Nov 2026
 
 ### New

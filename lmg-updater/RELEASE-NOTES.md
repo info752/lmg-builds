@@ -2,6 +2,32 @@
 
 For G and the editors. Newest first.
 
+## 1.2.0 – 25 Nov 2026
+
+### New
+- **The list now covers all our plugins, not four.** Tools → LMG Updates has two tables: plugins that are **updated through the list**, and plugins that are **watched only** (the list knows which version should run, but holds no build yet). A watched plugin is never offered as an update; it only shows where it runs and in which version.
+- **"🔼 newer than the list".** When a site runs a newer version than the list says, the cell turns orange. That is what happened with LMG Translator (the list said 2.17.19 while every site ran 2.21.1): the list was behind, not the sites.
+- **Single-file plugins can be updated too.** These are plugins that are one file, not a folder. WordPress's own update would move them into a new folder and switch them off, so "Update all now" installs them itself. It keeps a copy of the old file first. Tools → LMG Updates → "Copies kept from single-file updates" has a **Put this version back** button for each one.
+- **A build always lands in the plugin's own folder.** If a build's folder is named differently from the folder the plugin is installed in, it is unpacked into the installed folder, so the plugin stays switched on.
+- **"Our plugins on this site".** At the bottom of Tools → LMG Updates: every Leisure Media Group plugin on this site, its version, whether it is in the list, and **Download a copy**. The copy is the plugin exactly as it is installed, as a zip. Send it to Claude when a plugin with no reliable copy (LeisureIntel, LeisureRelate, Brevo Bridge) is to get its next version.
+- **"Update all now" in the yellow notice** now handles both kinds: single-file plugins first, then WordPress's usual update screen for the rest.
+
+### What you do differently
+1. On each site with the Updater (traveltalk.dk, traveltalk.travel, winetalk.dk, worldsporttalk.com): press **Update all now** in the yellow notice, or Dashboard → Updates → LMG Updater → Update.
+2. On think-smarter.net, which has no Updater yet: Plugins → Add New → Upload Plugin → choose the zip → Install → Activate. From then on it updates like the others.
+3. Look at Tools → LMG Updates once all sites run 1.2.0. Orange 🔼 cells mean the list is behind; tell Claude.
+
+### Good to know
+- **Nothing installs by itself.** As before, a person presses the button.
+- Until a site runs 1.2.0, the table shows "? older Updater there" for the new rows of that site, and "Issues" says which sites still run an older Updater.
+- A plugin in the list that is not on a site shows "not here". The Updater never installs a plugin that is not already there.
+- The public status address still shows only the plugins in the list and their versions; nothing else.
+- "Download a copy" is for administrators only and gives only our own plugins.
+- **Tested:** on a test WordPress 6.9 site: a folder plugin updated through Dashboard → Updates; a single-file plugin updated through "Update all now", the old file kept and put back with the button; a build with a differently named folder landed in the installed folder and stayed active; a wrong fingerprint was refused; "newer than the list" and "watched only" showed as described; Download a copy gave a working zip. **Not tested on the live sites**, and not behind Hostinger's LiteSpeed server.
+
+### Older content
+- **Not affected.** Plugins already installed keep running; the Updater only offers newer versions from the list.
+
 ## 1.1.2 – 14 Nov 2026
 
 ### New
