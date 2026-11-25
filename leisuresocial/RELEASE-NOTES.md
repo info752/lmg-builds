@@ -2,6 +2,24 @@
 
 For editors. Newest first.
 
+## 2.0.4 – 25 Nov 2026
+
+### New
+- **Captions follow the site's language.** On traveltalk.travel and other English sites the captions now read "👉 Read the full article", "🔗 Link in bio — or search for" and "Read more". Danish sites keep "Læs hele artiklen", "Link i bio — eller søg på" and "Læs mere".
+- When no hashtags are set, English sites start from #travel #traveltalk; Danish sites keep #rejser #traveltalk.
+
+### What you do differently
+- Nothing. Press **Update all now** in the yellow LMG notice on each site.
+
+### Good to know
+- The language comes from Settings → General → Site Language. A site set to Danish gets Danish captions; everything else gets English.
+- Hashtags already saved in Settings → LeisureSocial, or on a single post, are kept as they are. If traveltalk.travel has Danish hashtags saved there, change them by hand.
+- The article title and excerpt are taken from the post as before, so they are in the post's own language.
+- Tested on a test WordPress with the site in English and in Danish: captions and all three copy buttons worked. Not tested on the live sites.
+
+### Older content
+- Not affected. Captions are built when you open the post, so older posts get the new wording from installation on; the share log stays as it is.
+
 ## 2.0.3 – 25 Nov 2026
 
 ### New
@@ -13,7 +31,7 @@ For editors. Newest first.
 ### Good to know
 - If you edit the Instagram caption in the Captions tab first, your edited text is what gets copied.
 - Tested on a test WordPress with the classic editor: 2.0.2 copied nothing and showed "The caption is empty"; 2.0.3 copied the caption. Not tested on the live sites.
-- The captions are still written in Danish ("Læs hele artiklen", "Link i bio") on every site, also on traveltalk.travel. Not changed in this version.
+- The captions are still written in Danish ("Læs hele artiklen", "Link i bio") on every site, also on traveltalk.travel. Changed in 2.0.4.
 
 ### Older content
 - Not affected. The share log on each post stays as it is.
