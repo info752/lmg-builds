@@ -2,6 +2,20 @@
 
 For G and the editors. Newest first.
 
+## 1.2.1 – 26 Nov 2026
+
+### New
+- **"Go to the site's front page" after an update.** When WordPress reports an update done (plugins or themes, one or several), the screen now has a third link next to "Go to Plugins page" and "Go to WordPress Updates page": it opens the site's front page, so you can check the result straight away.
+
+### What you do differently
+- Nothing. Update LMG Updater on each site.
+
+### Good to know
+- Tested outside WordPress (syntax only). Not yet tested inside WordPress itself.
+
+### Older content
+- Not affected.
+
 ## 1.2.0 – 25 Nov 2026
 
 ### New

@@ -50,12 +50,12 @@
   },
   "lmg-updater/lmg-updater.php": {
    "name": "LMG Updater",
-   "version": "1.2.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.2.0.zip",
-   "sha256": "f32da3d65540b75f729cfec70f26af4f9d9c7d8700aad154311b9b3c2c0d00ca",
+   "version": "1.2.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-updater/lmg-updater-1.2.1.zip",
+   "sha256": "ceebb0d47dedfe34c6c8ce9273361a2f972b678e1720a1e790f0092372180ce6",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-updater/RELEASE-NOTES.md",
-   "summary": "The list covers all our plugins; single-file plugins; 'newer than the list' flag; Download a copy.",
-   "built_from": "github.com-new 8968e23",
+   "summary": "After an update, a third link goes to the site's front page.",
+   "built_from": "github.com-new be2a88c",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
