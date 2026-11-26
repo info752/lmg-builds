@@ -1,5 +1,35 @@
 # LMG Faktabokse – release notes
 
+## 1.3.0 – 26 November 2026
+
+### New
+
+- **Fact boxes for wine and sport.** Faktabokse now also fits winetalk.dk and worldsporttalk.com. Each site gets its own facts:
+  - **winetalk:** "Fakta om Bordeaux" with Grapes, Wine styles, Classification, Vineyard area, Good recent vintages and Best time to visit.
+  - **worldsporttalk:** "Facts about the Tour de France" with Sport, When, Venue / host cities, Format, Record / most titles, How to watch and Tickets.
+  - Under these, "More facts" still lets you add your own lines, for example famous producers or prize money.
+- On posts in the same category, the "Want to know more about …?" box links to the region or event page, as it does to country pages on the travel sites.
+- On wine and sport sites, the travel parts are switched off: no "How to get there" routes, no Travel Services section, no travel providers and no partner boxes.
+- **Settings → LMG Faktabokse → Settings → Kind of site** shows which kind the site is (Travel, Wine or Sport). It is set automatically from the site address, so normally you leave it alone.
+
+### What you do differently
+
+- **traveltalk.dk, traveltalk.travel, think-smarter.net:** press **Update all now** in the yellow LMG notice. Nothing changes for readers or editors.
+- **winetalk.dk and worldsporttalk.com (first time):** go to Plugins → Add New Plugin → Upload Plugin, choose the zip, then Install Now and Activate. After this, LMG Updater keeps it up to date.
+- To make a region or event page: open the page, scroll to the **Faktabokse** panel below the editor, choose its category (for example Bordeaux or Tour de France), fill in the facts you know for certain and set "Facts last checked". Every post in that category then gets the "Want to know more" box linking to the page.
+- Check every fact against a reliable source before you publish. Never take figures from memory or AI.
+
+### Good to know
+
+- Empty fields are left out of the box, so a page with three facts shows only those three.
+- Nothing shows on winetalk or worldsporttalk until a page has a category chosen in the Faktabokse panel.
+- The labels come in all ten LMG Translator languages, so translated pages get translated labels.
+- Tested on a test WordPress set up as a travel, a wine and a sport site, in Danish and English. The boxes, the editor panel and the settings page worked, and the travel parts stayed off on wine and sport. Not tested on the live sites.
+
+### Older content
+
+- Not affected. Country pages, routes, travel services and providers on the travel sites are unchanged. On winetalk and worldsporttalk there is no older content, because the plugin is new there.
+
 ## 1.2.0 – 23 November 2026
 
 ### New
