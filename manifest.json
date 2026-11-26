@@ -1,15 +1,15 @@
 {
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "note": "Entries with zip + sha256 are offered as updates; entries without are watched only (shown in Tools → LMG Updates, never offered). 'name:' entries are found on each site by plugin name.",
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.21.2",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.21.2.zip",
-   "sha256": "25147d33f68f6eb5b7a812490606d8df12ea8a044dce288c93e6fcf4cbaafd1a",
+   "version": "2.22.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.22.0.zip",
+   "sha256": "3423c908ee280377ee48fd3489995f313e92a427d78207c3ee1ca3489fe76423",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Language front pages (/en/ and others) use the site's own wording: wine, sport or clear thinking instead of travel; headings no longer cut at the left edge.",
-   "built_from": "github.com-new 2312f31",
+   "summary": "Notes for the editor (picture plans, Til redaktionen) move out of the text into a side box and stay deleted; steps save your edits first; advice follows the site (wine, sport, think).",
+   "built_from": "github.com-new 953f45c",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

@@ -1,6 +1,22 @@
 # LMG Translator – release notes
 
-For editors and reviewers on traveltalk.dk and traveltalk.travel. Newest first. Technical details: README.md.
+For editors and reviewers on traveltalk.dk, traveltalk.travel, winetalk.dk, worldsporttalk.com and think-smarter.net. Newest first. Technical details: README.md.
+
+## 2.22.0 – 26 Nov 2026
+
+### New
+- **Notes for the editor no longer stay in the text.** Picture plans ("Billedforslag 3: …"), the "Til redaktionen" section with links, translation tips and checks, and similar notes in other languages are taken out of the text every time the post is saved, by you or by a Translator step. They move to a new box on the right, "Notes for the editor".
+- **Deleted notes stay deleted.** Delete a note in the box and press Update: it is remembered and never put back, not by a later save, not by a Translator step and not by a new translation.
+- **Readers never see them.** Older posts that still carry such notes show without them, even before they are saved again.
+- **Translations never get them.** The notes are left out before the text is sent for translation.
+- **Translator steps save your edits first.** Deepen, Structure, Tone, Links and Boxes worked on the last saved text. If you had deleted something in the editor and not pressed Update, the step brought it back (this is what happened on "Vinrejse i Østrig"). The editor now saves first, then the step runs.
+- **The advice follows the site.** Translations, gaps, new sections, SEO texts, alt texts, structure and tone now speak wine on winetalk.dk, sport on worldsporttalk.com and clear thinking on think-smarter.net. Before, think-smarter.net got travel advice (best time to go, getting there, where to stay).
+
+### What you do differently
+- Nothing. Open "Vinrejse i Østrig", press Update once, and the notes move to the box on the right.
+
+### Good to know
+- Tested outside WordPress (finding and moving the notes, the wording for each site). Not yet tested inside WordPress itself.
 
 ## 2.21.2 – 25 Nov 2026
 
