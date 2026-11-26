@@ -576,12 +576,12 @@
   },
   "name:TT Front Hero": {
    "name": "TT Front Hero",
-   "version": "1.4.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-front-hero/tt-front-hero-1.4.0.zip",
-   "sha256": "d6eb6af28043037a5589e785fce6f71a94b6073434a3e4f28f71b28783beda43",
+   "version": "1.5.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-front-hero/tt-front-hero-1.5.0.zip",
+   "sha256": "79009b87607aab7f14de103541f04a06b5d902613e3ae925511fbe6beff928ec",
    "notes": "https://github.com/info752/lmg-builds/blob/main/tt-front-hero/RELEASE-NOTES.md",
-   "summary": "Handed out earlier, not yet installed everywhere; in the list since 25 Nov 2026 (G).",
-   "built_from": "github.com-new e94bcd1",
+   "summary": "Front hero headline and linkable categories like the article hero, one notch smaller; 44px tap targets on phones (26 Nov 2026).",
+   "built_from": "github.com-new 0c3f35a",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

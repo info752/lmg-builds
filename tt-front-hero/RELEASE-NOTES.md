@@ -1,5 +1,26 @@
 # TT Front Hero – release notes
 
+## 1.5.0 – 26 November 2026
+
+**New**
+- The front-page hero now looks like the hero on an article: the article's headline is large (36 px on a computer, 26 px on a phone, one notch smaller than the article heroes had until now), with its categories in capitals just above.
+- The categories in the front-page hero are links, as on the article pages. Up to three are shown.
+- Every link in the hero is at least 44 px tall, so a thumb can hit it on a phone. A tap anywhere on the picture still opens the article.
+- Article heroes get the same headline size (36 px / 26 px), and their category links are also at least 44 px tall.
+
+**What you do differently**
+- Nothing in the settings. After updating: LiteSpeed Cache → Toolbox → Purge All, then look at the front page and an article on a phone.
+
+**Good to know**
+- The "Rejser med sjæl" line stays hidden on traveltalk.dk, as before (that is set in the site's own Additional CSS, not in the plugin).
+- Clicks are still counted in Google Analytics as "hero_click", now also saying whether a headline/picture or a category was tapped.
+- The worldsporttalk.com carousel is unchanged.
+- Tested on a copy of the hero markup at phone width (390 px) and computer width (1280 px), and the article-hero change was tried on the live Antica Enoteca page in the browser before building. Not tested: a real WordPress install of this version, and traveltalk.travel. Please look at both front pages after updating.
+- To go back: reinstall 1.4.0 from the list and purge the cache.
+
+**Older content**
+- Applies automatically from installation on, to all articles and the front page. Nothing in posts or settings is changed.
+
 ## 1.4.0 – 21 November 2026
 
 **New**
