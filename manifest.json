@@ -576,12 +576,12 @@
   },
   "name:TT Front Hero": {
    "name": "TT Front Hero",
-   "version": "1.5.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-front-hero/tt-front-hero-1.5.0.zip",
-   "sha256": "79009b87607aab7f14de103541f04a06b5d902613e3ae925511fbe6beff928ec",
+   "version": "1.5.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/tt-front-hero/tt-front-hero-1.5.1.zip",
+   "sha256": "cb28486b989b6310c42af8372c62d427dee914b2c478639500fa51e1b7d2a209",
    "notes": "https://github.com/info752/lmg-builds/blob/main/tt-front-hero/RELEASE-NOTES.md",
-   "summary": "Front hero headline and linkable categories like the article hero, one notch smaller; 44px tap targets on phones (26 Nov 2026).",
-   "built_from": "github.com-new 0c3f35a",
+   "summary": "Slider headline + category links exactly like the article hero (40/28px); 44px tap targets; article heroes untouched (26 Nov 2026).",
+   "built_from": "github.com-new aed397e",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

@@ -1,5 +1,22 @@
 # TT Front Hero – release notes
 
+## 1.5.1 – 26 November 2026
+
+**New**
+- The front-page slider now uses exactly the same headline size as the article hero: 40 px on a computer, 28 px on a phone. The categories above the headline match the article hero too, and they are links.
+- Article heroes are back to how they were before 1.5.0. Nothing on article pages is changed by this plugin any more.
+
+**What you do differently**
+- Update from the list, then LiteSpeed Cache → Toolbox → Purge All, and look at the front page on a phone.
+
+**Good to know**
+- Every link in the slider is at least 44 px tall, so a thumb can hit it. A tap anywhere on the picture still opens the article.
+- Tested on a copy of the slider at phone width (390 px) and computer width (1280 px). Not tested on a real WordPress install or on traveltalk.travel.
+- To go back: reinstall 1.4.0 from the list and purge the cache.
+
+**Older content**
+- Applies automatically from installation on. Nothing in posts or settings is changed.
+
 ## 1.5.0 – 26 November 2026
 
 **New**
