@@ -189,6 +189,19 @@
     "think-smarter.net"
    ]
   },
+  "lmg-ga4-key/lmg-ga4-key.php": {
+   "name": "LMG GA4 Key",
+   "version": "1.0.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-ga4-key/lmg-ga4-key-1.0.0.zip",
+   "sha256": "18cbb15b26bc701edda924deefc8e0a5b730edfcdaea883b70d6b79ad837c8e2",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-ga4-key/RELEASE-NOTES.md",
+   "summary": "Upload the GA4 key for LeisureIntel from wp-admin; stored outside the web root; shows GA4 aktiv after a live read.",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk"
+   ]
+  },
   "name:LeisureMaps": {
    "name": "LeisureMaps",
    "version": "1.3.0",
