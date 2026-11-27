@@ -180,7 +180,12 @@
   },
   "name:LeisureIntel": {
    "name": "LeisureIntel",
-   "version": "3.7.0",
+   "version": "3.7.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/leisureintel/leisureintel-3.7.1.zip",
+   "sha256": "5ba72629157fa249068a9c1c71847c3d35617162b830d385f9e270fbb64cfc74",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/leisureintel/RELEASE-NOTES.md",
+   "summary": "Publishing-rhythm check and alerts count translations, so .travel is not flagged as quiet.",
+   "built_from": "github.com-new 0c2dbd6",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
@@ -422,7 +427,12 @@
   },
   "name:LMG Publishing Stats": {
    "name": "LMG Publishing Stats",
-   "version": "1.0",
+   "version": "1.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-publishing-stats/lmg-publishing-stats-1.1.zip",
+   "sha256": "31bd6953e557e0bda1c29855c6274cb4d5d54d0096125f0a82fedd0793ab9393",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-publishing-stats/RELEASE-NOTES.md",
+   "summary": "Publishing Overview counts LMG Translator translations (with languages), not only articles.",
+   "built_from": "github.com-new 0c2dbd6",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
