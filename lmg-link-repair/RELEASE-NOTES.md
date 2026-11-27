@@ -2,6 +2,17 @@
 
 For G and the editors. Newest first.
 
+## 1.0.2 – 27 Nov 2026
+
+### Safer
+- **Old language addresses can never hit a live translation.** Three guards now apply before any 410: the address must already be a 404; its language must not be in the keep list (now also ja, zh, ko) or be any language Translator has used on this site; and its last part must not match a published post, page or translation.
+- The tab shows the protected languages for this site.
+- Runs after every other plugin has had its chance (LMG DK Language Redirects still redirects /de/, /en/ and so on first).
+- The 410 page names the site instead of always saying traveltalk.dk.
+
+### What you do differently
+- Dashboard → Updates → LMG Link Repair → Update. The switch stays off until you turn it on.
+
 ## 1.0.1 – 27 Nov 2026
 
 ### Fixed
