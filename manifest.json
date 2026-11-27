@@ -707,11 +707,11 @@
   },
   "lmg-link-repair/lmg-link-repair.php": {
    "name": "LMG Link Repair",
-   "version": "1.1.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.1.0.zip",
-   "sha256": "666c34d485412afbcf71cc49241376ce224c08cd5213f036c02232a1ca854253",
+   "version": "1.2.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.2.1.zip",
+   "sha256": "233972650fbb20e879dd85155520136fdaa50b2a8a01cba10ec5966f9f4af0ab",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-link-repair/RELEASE-NOTES.md",
-   "summary": "Orphan posts: one click adds them to a \"Læs også\" list at the end of their hub, with Undo; odd rows are marked \"check first\".",
+   "summary": "Apply now runs in small batches with a progress line, so big sites like traveltalk.dk finish; plus real hub pages for orphans (1.2.0).",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
