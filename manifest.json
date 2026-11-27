@@ -707,11 +707,11 @@
   },
   "lmg-link-repair/lmg-link-repair.php": {
    "name": "LMG Link Repair",
-   "version": "1.0.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.0.zip",
-   "sha256": "e060f920ff1b7cfa1e38d9fbb14dab4a7e08912966e3f6d616f8d328dd2795b9",
+   "version": "1.0.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.1.zip",
+   "sha256": "02a2d8f35e4cd51480e23911b35f366e2c4748909727021c9ca02aeb6b93a396",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-link-repair/RELEASE-NOTES.md",
-   "summary": "Tools → Link repair: point internal links straight at the live page (preview, Apply, Undo), answer old GTranslate language addresses with 410, list orphan posts.",
+   "summary": "Fixes \"the link you followed has expired\" on every button in Tools → Link repair.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

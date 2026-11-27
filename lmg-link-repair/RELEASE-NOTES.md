@@ -2,6 +2,17 @@
 
 For G and the editors. Newest first.
 
+## 1.0.1 – 27 Nov 2026
+
+### Fixed
+- **Every button gave "Det link, du fulgte, er udløbet".** The security code in the button links was escaped twice, so WordPress never received it. Scan, Apply, Undo and the CSV downloads now work.
+
+### What you do differently
+- Dashboard → Updates → LMG Link Repair → Update (or upload the zip again). Then Tools → Link repair → Start scan.
+
+### Good to know
+- Tested outside WordPress (syntax). Not yet tested inside WordPress itself.
+
 ## 1.0.0 – 27 Nov 2026
 
 Covers recovery steps 1 to 3 from the Traffic playbook. Install it under Plugins → Add new → Upload, activate it, then open **Tools → Link repair**. It changes nothing until you press a button.
