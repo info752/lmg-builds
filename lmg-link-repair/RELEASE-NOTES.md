@@ -2,6 +2,15 @@
 
 For G and the editors. Newest first.
 
+## 1.2.1 – 27 Nov 2026
+
+### Fixed
+- **Apply on big sites.** On traveltalk.dk (2,088 detours in 895 posts) Apply ran out of time and then reported "0 links fixed". It now works through 40 posts at a time, with a progress line ("Fixing links… 120 of 895 posts"), and continues by itself. If it stops, reloading the page carries on from where it got to.
+- **Honest count.** Links that an earlier, interrupted run had already fixed are now reported as "already fixed" instead of being silently counted as zero.
+
+### What you do differently
+- Dashboard → Updates → LMG Link Repair → Update. Then press Scan again, then Apply, and leave the page open until it says Done.
+
 ## 1.2.0 – 27 Nov 2026
 
 ### Better
