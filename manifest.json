@@ -707,11 +707,11 @@
   },
   "lmg-link-repair/lmg-link-repair.php": {
    "name": "LMG Link Repair",
-   "version": "1.0.1",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.1.zip",
-   "sha256": "02a2d8f35e4cd51480e23911b35f366e2c4748909727021c9ca02aeb6b93a396",
+   "version": "1.0.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.2.zip",
+   "sha256": "2cc463648f1229341fc6b5e90b41a901718fb13e529af9194c0aaeec524a30f7",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-link-repair/RELEASE-NOTES.md",
-   "summary": "Fixes \"the link you followed has expired\" on every button in Tools → Link repair.",
+   "summary": "Old language addresses: extra guards so live translations (/fr/, /ja/ and any language Translator uses) are never touched.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
