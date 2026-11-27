@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "note": "Entries with zip + sha256 are offered as updates; entries without are watched only (shown in Tools → LMG Updates, never offered). 'name:' entries are found on each site by plugin name.",
  "plugins": {
   "lmg-translator/lmg-translator.php": {
@@ -697,6 +697,21 @@
   "name:Traveltalk 404 Logger & Redirect": {
    "name": "Traveltalk 404 Logger & Redirect",
    "version": "1.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "lmg-link-repair/lmg-link-repair.php": {
+   "name": "LMG Link Repair",
+   "version": "1.0.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.1.zip",
+   "sha256": "02a2d8f35e4cd51480e23911b35f366e2c4748909727021c9ca02aeb6b93a396",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-link-repair/RELEASE-NOTES.md",
+   "summary": "Fixes \"the link you followed has expired\" on every button in Tools → Link repair.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
