@@ -2,6 +2,22 @@
 
 For G and the editors. Newest first.
 
+## 1.1.0 – 27 Nov 2026
+
+### New
+- **Orphan posts are linked in one click.** Tools → Link repair → 3. Orphan posts: tick posts and press "Link ticked posts", or press "Link all". Each post is added to a short list at the end of its hub's text, under a heading in the site's language (Læs også, Read more and so on). The list is created once per hub and extended later. Nothing is removed.
+- **"Check first" column.** Rows that shouldn't be linked automatically are marked in red and have no tick box: a post with the same name as its hub (such as Vinsnak and /vinsnak/, a possible duplicate), a hub that is only a category archive with no page text, or a hub that isn't published. You decide on those.
+- **Undo hub links** puts every hub back exactly as it was.
+- The CSV now has a "check_first" column.
+
+### What you do differently
+- Dashboard → Updates → LMG Link Repair → Update. Then 3. Orphan posts → Link all.
+
+### Good to know
+- Linked posts disappear from the list straight away. Rank Math's own count updates the next time the hub is saved in the editor.
+- Translations of the hub don't get the list. It sits in the original only.
+- Tested outside WordPress (syntax and the list-building logic). Not yet tested inside WordPress itself.
+
 ## 1.0.2 – 27 Nov 2026
 
 ### Safer
