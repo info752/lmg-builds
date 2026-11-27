@@ -180,12 +180,7 @@
   },
   "name:LeisureIntel": {
    "name": "LeisureIntel",
-   "version": "3.7.1",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/leisureintel/leisureintel-3.7.1.zip",
-   "sha256": "5ba72629157fa249068a9c1c71847c3d35617162b830d385f9e270fbb64cfc74",
-   "notes": "https://github.com/info752/lmg-builds/blob/main/leisureintel/RELEASE-NOTES.md",
-   "summary": "Publishing-rhythm check and alerts count translations, so .travel is not flagged as quiet.",
-   "built_from": "github.com-new 0c2dbd6",
+   "version": "3.7.0",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
