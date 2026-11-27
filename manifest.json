@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "note": "Entries with zip + sha256 are offered as updates; entries without are watched only (shown in Tools → LMG Updates, never offered). 'name:' entries are found on each site by plugin name.",
  "plugins": {
   "lmg-translator/lmg-translator.php": {
@@ -697,6 +697,21 @@
   "name:Traveltalk 404 Logger & Redirect": {
    "name": "Traveltalk 404 Logger & Redirect",
    "version": "1.1",
+   "sites": [
+    "traveltalk.dk",
+    "traveltalk.travel",
+    "winetalk.dk",
+    "worldsporttalk.com",
+    "think-smarter.net"
+   ]
+  },
+  "lmg-link-repair/lmg-link-repair.php": {
+   "name": "LMG Link Repair",
+   "version": "1.0.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.0.zip",
+   "sha256": "e060f920ff1b7cfa1e38d9fbb14dab4a7e08912966e3f6d616f8d328dd2795b9",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-link-repair/RELEASE-NOTES.md",
+   "summary": "Tools → Link repair: point internal links straight at the live page (preview, Apply, Undo), answer old GTranslate language addresses with 410, list orphan posts.",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
