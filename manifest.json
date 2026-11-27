@@ -707,11 +707,11 @@
   },
   "lmg-link-repair/lmg-link-repair.php": {
    "name": "LMG Link Repair",
-   "version": "1.0.2",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.0.2.zip",
-   "sha256": "2cc463648f1229341fc6b5e90b41a901718fb13e529af9194c0aaeec524a30f7",
+   "version": "1.1.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-link-repair/lmg-link-repair-1.1.0.zip",
+   "sha256": "666c34d485412afbcf71cc49241376ce224c08cd5213f036c02232a1ca854253",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-link-repair/RELEASE-NOTES.md",
-   "summary": "Old language addresses: extra guards so live translations (/fr/, /ja/ and any language Translator uses) are never touched.",
+   "summary": "Orphan posts: one click adds them to a \"Læs også\" list at the end of their hub, with Undo; odd rows are marked \"check first\".",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
