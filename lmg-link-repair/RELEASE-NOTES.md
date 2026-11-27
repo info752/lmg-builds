@@ -2,6 +2,18 @@
 
 For G and the editors. Newest first.
 
+## 1.2.0 – 27 Nov 2026
+
+### Better
+- **Fewer "the hub is a category archive" rows.** When a post's category has no page, Link repair now looks for the right page in this order: a country, region or continent page named in the post's title (the most specific name wins, so Romania beats Europe), then one named in its opening lines, then the page of a parent category.
+- **Paste the hub yourself.** Rows that still have no page get a box: paste the address of the page that should link to the post, then press "Link ticked posts".
+
+### What you do differently
+- Dashboard → Updates → LMG Link Repair → Update, then reopen 3. Orphan posts.
+
+### Good to know
+- Tested outside WordPress (syntax and name matching). Not yet tested inside WordPress itself.
+
 ## 1.1.0 – 27 Nov 2026
 
 ### New
