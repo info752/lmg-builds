@@ -4,12 +4,12 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.22.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.22.0.zip",
-   "sha256": "3423c908ee280377ee48fd3489995f313e92a427d78207c3ee1ca3489fe76423",
+   "version": "2.22.3",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.22.3.zip",
+   "sha256": "77a55ef19db1ce78bfb515d4381f6ae1872a373402e2c3223484076b85b74842",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Notes for the editor (picture plans, Til redaktionen) move out of the text into a side box and stay deleted; steps save your edits first; advice follows the site (wine, sport, think).",
-   "built_from": "github.com-new 953f45c",
+   "summary": "Tone checks facts and language first, suggests concrete examples to add, keeps wordplay, no \"Oplev\" ban, no rewrite unless clearly better.",
+   "built_from": "live 2.22.0 (traveltalk.dk) + class-lmgt-tone.php",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

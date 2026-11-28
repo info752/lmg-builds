@@ -2,6 +2,34 @@
 
 For editors and reviewers on traveltalk.dk, traveltalk.travel, winetalk.dk, worldsporttalk.com and think-smarter.net. Newest first. Technical details: README.md.
 
+## 2.22.3 – 28 Nov 2026
+
+### Changed
+- **The Tone step now looks for errors first.** In this order: factual errors (a wrong claim, figure, name or place), language errors (grammar, spelling, unidiomatic Danish, a missing word), then clear breaks of the tone rules. Each item is labelled Fact, Language or Rule N.
+- **Ideas to add, on top of the writing.** Where a named place, dish, person, date or number would make a passage stronger, Tone suggests one ("Idea to add"). It never replaces your text and is never put in by itself: check it and add it by hand.
+- **Fact errors show the correct fact** next to the passage. A fact is flagged only when it is wrong, not just because it has no source.
+- Up to 15 items per check (was 12).
+
+## 2.22.2 – 28 Nov 2026
+
+### Changed
+- **Tone leaves wordplay alone.** Puns, alliteration, rhythm and a headline or slogan with a twist that lands are craft and are never flagged. "Schweiz står for kvalitet fra ure til urlaub" is written into the rules as an example to keep. Rule 6 now catches only tired formulas and half-puns that fall flat. A bold or playful line is not treated as a claim that needs a source.
+- The checks flag only clear errors and genuinely mediocre writing, never a creative choice.
+
+## 2.22.1 – 28 Nov 2026
+
+### Changed
+- **Tone rule 5 no longer bans "Oplev".** Rule 5 now catches real sales voice only: pushy calls to the reader, ad copy and hype ("Lad dig forføre", "Glæd dig til", "Gå ikke glip af", "Book nu"). "Oplev" and "oplevelse" are left alone when they say what the reader actually does or meets there ("oplev byens skuespilhus", "oplev Schweiz' teatre og musicals"). They are flagged only when they stand in for content ("oplev magien", "en oplevelse for livet") or come with hype.
+- **No rewrite that is not clearly better.** The Tone step flags only clear breaks and leaves doubtful passages alone. A rewrite must be plainer, more concrete and correct, unambiguous Danish. Vague or ambiguous words ("se stykker") and plain verb swaps are not offered; if there is no clearly better wording, the passage is not listed.
+
+### What you do differently
+- Nothing. A Tone list already waiting on a post was made with the old rule: Reject it and click "Check again".
+
+### Good to know
+- Built from the live 2.22.0 on traveltalk.dk (identical to the 2.22.0 build). Only class-lmgt-tone.php and the version number changed.
+- If someone has edited rule 5 in Settings → Tone, that wording is kept. A saved copy of the old wording is replaced by the new one.
+- check_zip.py reports tests/test-headfix.php as missing a file; that is a false alarm in the checker (it reads `__DIR__` as the plugin root). The file is in the zip. Same result on 2.22.0.
+
 ## 2.22.0 – 26 Nov 2026
 
 ### New
