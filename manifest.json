@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27",
+ "updated": "2026-11-28",
  "note": "Entries with zip + sha256 are offered as updates; entries without are watched only (shown in Tools → LMG Updates, never offered). 'name:' entries are found on each site by plugin name.",
  "plugins": {
   "lmg-translator/lmg-translator.php": {
@@ -180,7 +180,12 @@
   },
   "name:LeisureIntel": {
    "name": "LeisureIntel",
-   "version": "3.7.0",
+   "version": "3.7.2",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/leisureintel/leisureintel-3.7.2.zip",
+   "sha256": "8c4b41a43e7cb67955790632e4e8ad16a882bbe40034d9aadb1925665ac6ca6a",
+   "notes": "https://github.com/info752/lmg-builds/blob/main/leisureintel/RELEASE-NOTES.md",
+   "summary": "Publishing-rhythm warning counts translations too. Built on the live 3.7.0; replaces withdrawn 3.7.1. Live on traveltalk.travel since 28 Nov.",
+   "built_from": "github.com-new bea8963",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",
