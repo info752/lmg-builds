@@ -4,12 +4,12 @@
  "plugins": {
   "lmg-translator/lmg-translator.php": {
    "name": "LMG Translator",
-   "version": "2.22.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.22.0.zip",
-   "sha256": "3423c908ee280377ee48fd3489995f313e92a427d78207c3ee1ca3489fe76423",
+   "version": "2.22.1",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.22.1.zip",
+   "sha256": "6057e2ae124a553e15d5608cce9b78a1ff27cbaf504974031dc82fc952ed5c3f",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Notes for the editor (picture plans, Til redaktionen) move out of the text into a side box and stay deleted; steps save your edits first; advice follows the site (wine, sport, think).",
-   "built_from": "github.com-new 953f45c",
+   "summary": "Tone rule 5 judges sales voice instead of banning \"Oplev\"; no rewrite unless clearly better.",
+   "built_from": "live 2.22.0 (traveltalk.dk) + class-lmgt-tone.php",
    "sites": [
     "traveltalk.dk",
     "traveltalk.travel",

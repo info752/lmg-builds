@@ -2,6 +2,20 @@
 
 For editors and reviewers on traveltalk.dk, traveltalk.travel, winetalk.dk, worldsporttalk.com and think-smarter.net. Newest first. Technical details: README.md.
 
+## 2.22.1 – 28 Nov 2026
+
+### Changed
+- **Tone rule 5 no longer bans "Oplev".** Rule 5 now catches real sales voice only: pushy calls to the reader, ad copy and hype ("Lad dig forføre", "Glæd dig til", "Gå ikke glip af", "Book nu"). "Oplev" and "oplevelse" are left alone when they say what the reader actually does or meets there ("oplev byens skuespilhus", "oplev Schweiz' teatre og musicals"). They are flagged only when they stand in for content ("oplev magien", "en oplevelse for livet") or come with hype.
+- **No rewrite that is not clearly better.** The Tone step flags only clear breaks and leaves doubtful passages alone. A rewrite must be plainer, more concrete and correct, unambiguous Danish. Vague or ambiguous words ("se stykker") and plain verb swaps are not offered; if there is no clearly better wording, the passage is not listed.
+
+### What you do differently
+- Nothing. A Tone list already waiting on a post was made with the old rule: Reject it and click "Check again".
+
+### Good to know
+- Built from the live 2.22.0 on traveltalk.dk (identical to the 2.22.0 build). Only class-lmgt-tone.php and the version number changed.
+- If someone has edited rule 5 in Settings → Tone, that wording is kept. A saved copy of the old wording is replaced by the new one.
+- check_zip.py reports tests/test-headfix.php as missing a file; that is a false alarm in the checker (it reads `__DIR__` as the plugin root). The file is in the zip. Same result on 2.22.0.
+
 ## 2.22.0 – 26 Nov 2026
 
 ### New
