@@ -6,9 +6,9 @@
    "name": "LMG Translator",
    "version": "2.22.3",
    "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-translator/lmg-translator-2.22.3.zip",
-   "sha256": "77a55ef19db1ce78bfb515d4381f6ae1872a373402e2c3223484076b85b74842",
+   "sha256": "a72197aa318dcb5333fb9bbac20bc5bbf97c25b926e4b3f14f1ecec788af6216",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-translator/RELEASE-NOTES.md",
-   "summary": "Tone checks facts and language first, suggests concrete examples to add, keeps wordplay, no \"Oplev\" ban, no rewrite unless clearly better.",
+   "summary": "Positive, fair voice in every writing step (a downside once, with the upside); Tone checks facts and language first, suggests ideas to add, keeps wordplay, no \"Oplev\" ban.",
    "built_from": "live 2.22.0 (traveltalk.dk) + class-lmgt-tone.php",
    "sites": [
     "traveltalk.dk",

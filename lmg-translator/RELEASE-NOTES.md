@@ -9,6 +9,7 @@ For editors and reviewers on traveltalk.dk, traveltalk.travel, winetalk.dk, worl
 - **Ideas to add, on top of the writing.** Where a named place, dish, person, date or number would make a passage stronger, Tone suggests one ("Idea to add"). It never replaces your text and is never put in by itself: check it and add it by hand.
 - **Fact errors show the correct fact** next to the passage. A fact is flagged only when it is wrong, not just because it has no source.
 - Up to 15 items per check (was 12).
+- **Positive and fair about places, in every step that writes or corrects text** (extra content, new sections, intro, fact box, FAQ, Improve, Tone). A downside such as price is said once, honestly, with the upside or a practical tip beside it, never repeated and never added when your text does not have it. The model to match is your own Schweiz price section ("… Eller også er det bare merprisen værd."). Your text is the base: steps build on it and never strip what is good. The extra-content step no longer "leads with what is inconvenient".
 
 ## 2.22.2 – 28 Nov 2026
 
