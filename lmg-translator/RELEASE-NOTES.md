@@ -2,6 +2,14 @@
 
 For editors and reviewers on traveltalk.dk, traveltalk.travel, winetalk.dk, worldsporttalk.com and think-smarter.net. Newest first. Technical details: README.md.
 
+## 2.22.3 – 28 Nov 2026
+
+### Changed
+- **The Tone step now looks for errors first.** In this order: factual errors (a wrong claim, figure, name or place), language errors (grammar, spelling, unidiomatic Danish, a missing word), then clear breaks of the tone rules. Each item is labelled Fact, Language or Rule N.
+- **Ideas to add, on top of the writing.** Where a named place, dish, person, date or number would make a passage stronger, Tone suggests one ("Idea to add"). It never replaces your text and is never put in by itself: check it and add it by hand.
+- **Fact errors show the correct fact** next to the passage. A fact is flagged only when it is wrong, not just because it has no source.
+- Up to 15 items per check (was 12).
+
 ## 2.22.2 – 28 Nov 2026
 
 ### Changed
