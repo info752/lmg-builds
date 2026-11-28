@@ -2,6 +2,12 @@
 
 For editors and reviewers on traveltalk.dk, traveltalk.travel, winetalk.dk, worldsporttalk.com and think-smarter.net. Newest first. Technical details: README.md.
 
+## 2.22.2 – 28 Nov 2026
+
+### Changed
+- **Tone leaves wordplay alone.** Puns, alliteration, rhythm and a headline or slogan with a twist that lands are craft and are never flagged. "Schweiz står for kvalitet fra ure til urlaub" is written into the rules as an example to keep. Rule 6 now catches only tired formulas and half-puns that fall flat. A bold or playful line is not treated as a claim that needs a source.
+- The checks flag only clear errors and genuinely mediocre writing, never a creative choice.
+
 ## 2.22.1 – 28 Nov 2026
 
 ### Changed
