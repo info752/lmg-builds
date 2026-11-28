@@ -91,15 +91,14 @@
   },
   "name:LMG Rank Math Keywords": {
    "name": "LMG Rank Math Keywords",
-   "version": "1.0.0",
-   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-rankmath-keywords/lmg-rankmath-keywords-1.0.0.zip",
-   "sha256": "75dfbe4a859c7287730b6aa38f8cdb77ddfc850158e32ceaf8468666d9020ca3",
+   "version": "1.1.0",
+   "zip": "https://raw.githubusercontent.com/info752/lmg-builds/main/lmg-rankmath-keywords/lmg-rankmath-keywords-1.1.0.zip",
+   "sha256": "5f886aa887254379a0e6f4cd098ef991eb9e8d8b5676817b0fc2fb6658dfdea2",
    "notes": "https://github.com/info752/lmg-builds/blob/main/lmg-rankmath-keywords/RELEASE-NOTES.md",
-   "summary": "Same version as live; in the list so later versions arrive through Dashboard → Updates.",
-   "built_from": "github.com-new 444296b",
+   "summary": "New LMG SEO menu. Svage sider lists strong posts with weak Rank Math scores and fixes one post at a time (hub/external link, longer keyword than a bare country).",
+   "built_from": "live 1.0.0 (same files as lmg-rankmath-keywords-1.0.0.zip) + 1.1.0 changes",
    "sites": [
-    "traveltalk.dk",
-    "traveltalk.travel"
+    "traveltalk.dk"
    ]
   },
   "name:LMG .dk Image Bank": {
